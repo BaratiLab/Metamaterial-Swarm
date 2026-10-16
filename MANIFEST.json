@@ -40,6 +40,836 @@
     "sha256": "5824461aaac0e17293ba6a0d9dabf6dbe164ef0804ee5d877fae9ea0d2268847"
   },
   {
+    "path": "outputs/cloak-coordination/REPRODUCE.txt",
+    "bytes": 2087,
+    "sha256": "3ff9647a073d4d9bc9967a90ca4a1a3a8a01636ca3946bf9412b5f600dd9093b"
+  },
+  {
+    "path": "outputs/cloak-coordination/RESULTS.md",
+    "bytes": 4133,
+    "sha256": "83a8d0141429a1316562b7be46dbe42617d500b86d2522a57a058b41e02fc6ba"
+  },
+  {
+    "path": "outputs/cloak-coordination/adaptive_selector.py",
+    "bytes": 9447,
+    "sha256": "af229cd97128825d157e677595ab5ddeb9c342576bd4edfe0f66a4a70c292034"
+  },
+  {
+    "path": "outputs/cloak-coordination/audit.json",
+    "bytes": 213,
+    "sha256": "9fa6ee45f73a4a8c8aeb5e1c1a391098aa6d4b0c0479f0ef904230f05e9411bf"
+  },
+  {
+    "path": "outputs/cloak-coordination/audit.py",
+    "bytes": 1717,
+    "sha256": "da0dab44ad24fea3c88b23219be1212e2a977cb2d95e65a1cda47c7a8983a88b"
+  },
+  {
+    "path": "outputs/cloak-coordination/baseline_labels.npy",
+    "bytes": 2832,
+    "sha256": "5ad958189d7fb803b7e1909cb50f2480f5cdeeb749b6e84a7f84f4cc2ac8c4ed"
+  },
+  {
+    "path": "outputs/cloak-coordination/benchmark.py",
+    "bytes": 21680,
+    "sha256": "68a18b5997bf899129d79561832156b0861a0c23c263dca5a7d1245bfb584015"
+  },
+  {
+    "path": "outputs/cloak-coordination/check_balance.py",
+    "bytes": 2045,
+    "sha256": "61272a7afbf61d724d907b06735aa30fd582ccbb8aa3e993ae3de53ff6b15720"
+  },
+  {
+    "path": "outputs/cloak-coordination/cloak_adapter.py",
+    "bytes": 7989,
+    "sha256": "ca7997b2817e1b53597f494cb0702604e9a1a3675a577ba378ac01a771c69fde"
+  },
+  {
+    "path": "outputs/cloak-coordination/code_hashes.json",
+    "bytes": 450,
+    "sha256": "ad135c2ab0c437e81b181e7e1621ce381f78b8324c5432eda092ab19cc5faeae"
+  },
+  {
+    "path": "outputs/cloak-coordination/comparison.png",
+    "bytes": 117141,
+    "sha256": "d19d0f5d6a02206cb07ac24f2782d025b336c9aa990f0fce59ba25c657187165"
+  },
+  {
+    "path": "outputs/cloak-coordination/comparison.svg",
+    "bytes": 40606,
+    "sha256": "f397174607eb0d6e3047ac317dd3121c2ea851c04033a61e16e50dc55d001862"
+  },
+  {
+    "path": "outputs/cloak-coordination/coordinate.py",
+    "bytes": 1434,
+    "sha256": "af17d1f136367d5d844df231ca3ca427b78490618983709006bfd25a2165fbcb"
+  },
+  {
+    "path": "outputs/cloak-coordination/experiment.py",
+    "bytes": 8799,
+    "sha256": "0c0a41abf596faf9399223fa94f9c2b2d806efe809aed81aa2474bf59d25e8af"
+  },
+  {
+    "path": "outputs/cloak-coordination/fem_solver.py",
+    "bytes": 8749,
+    "sha256": "a1dc0fdb6faef8678bf55610a1b21de7009c27cef50a19dd2dd31ed2fe14c986"
+  },
+  {
+    "path": "outputs/cloak-coordination/force_balance.json",
+    "bytes": 704,
+    "sha256": "4de9dfae109eee9c2a801ce99476112ac37694bd49f426022b7fc3e17464a6d4"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round1/commitment.json",
+    "bytes": 227,
+    "sha256": "0ccfe57c407e9120171a15a287e83f5dbbfae2a978669e2fe19cd609dac4f45a"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round1/coordination.json",
+    "bytes": 322,
+    "sha256": "d3683c5689a80ed8e971ee43b109dcccf61d2074995ade95045e57e401d79604"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round1/feedback.json",
+    "bytes": 944853,
+    "sha256": "fa3cfc8c1f4213d221b1ca1f2d91f4dbda42d54aa95091874777b97dfc8c2797"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round1/interfaces.json",
+    "bytes": 1077,
+    "sha256": "05cf57cf90c142320e23be0ea0741cae071d1f0b2412d98de188499bc5fa2f4e"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round1/partial_results.json",
+    "bytes": 16423,
+    "sha256": "cac32b034b7f2e4732a0716dd5516fd45c7f5a1882c7154fbfbbb8257bb79262"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round1/proposals.json",
+    "bytes": 2316,
+    "sha256": "852761520328beaca5fb6de0cfb92024dfa7532299faf2b04bc1c0af780c7c92"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round1/response.json",
+    "bytes": 825,
+    "sha256": "44b2cc078ef2b702253b8d91c243e8ba2e63a7ecfff42087906a988ea4e96321"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round1/results.json",
+    "bytes": 16423,
+    "sha256": "cac32b034b7f2e4732a0716dd5516fd45c7f5a1882c7154fbfbbb8257bb79262"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round10/commitment.json",
+    "bytes": 228,
+    "sha256": "ff5616e791eef2b4801f99b5fb3985c02475d1378a915c5a66bfe0c6dcbf364c"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round10/coordination.json",
+    "bytes": 323,
+    "sha256": "d0499f22ab9da682fec27be5413bb299274bd7780f5d8fc6017e8516bd59098e"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round10/feedback.json",
+    "bytes": 1112080,
+    "sha256": "3c5ceca11ed32b59197b53a20854afa6f7074c9cf706e0079359df395e609525"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round10/interfaces.json",
+    "bytes": 935,
+    "sha256": "46f09914de1c1f97bf100ce5ec6a4425bba2f4cea3cbc64f7db27eefcb690566"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round10/partial_results.json",
+    "bytes": 16199,
+    "sha256": "c6896747ba3fc3c279e6539f8f496294f76315e1e1aec9de0730df793eea939a"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round10/proposals.json",
+    "bytes": 2086,
+    "sha256": "69c19c58e369fc7c131f911da0e513af90f7fe4e20f68d6782d87da4bf8aef44"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round10/response.json",
+    "bytes": 729,
+    "sha256": "774fa31fa4f228021b5884ceac7ae8875966694f80551c41cb245f0e21fca7f0"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round10/results.json",
+    "bytes": 16199,
+    "sha256": "c6896747ba3fc3c279e6539f8f496294f76315e1e1aec9de0730df793eea939a"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round2/commitment.json",
+    "bytes": 228,
+    "sha256": "865f1a57a2f661275b6b186506b32d43271cc5c935a9e71ea9424f38908fe08b"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round2/coordination.json",
+    "bytes": 322,
+    "sha256": "a172118f6066ceb6f328c0f2ed8cf31f40c53a024f08898a5501aea843982dc8"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round2/feedback.json",
+    "bytes": 963743,
+    "sha256": "181f093e6f55b5dadef8c14919a6a6d10a0597342f0ff88b7d374185cc14d48a"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round2/interfaces.json",
+    "bytes": 959,
+    "sha256": "68b316efd1dfa0d92e52a358ee3d4a6ad975e05ee7684abbae1000daf4e7674e"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round2/partial_results.json",
+    "bytes": 16267,
+    "sha256": "b9db3775a2ba21db306447de6f29e7ae2864c652d2abc04965e3a0724644f81f"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round2/proposals.json",
+    "bytes": 2170,
+    "sha256": "f57d20650291ff268d9fc1713136532c9760dde57eb2a6b07dffe400f3331ac9"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round2/response.json",
+    "bytes": 774,
+    "sha256": "69a5fe55b81d3bd01ace59f5b085100d622a83a26447e1b27414c1723bdd4c60"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round2/results.json",
+    "bytes": 16267,
+    "sha256": "b9db3775a2ba21db306447de6f29e7ae2864c652d2abc04965e3a0724644f81f"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round3/commitment.json",
+    "bytes": 227,
+    "sha256": "21c5ac5afcfb1778f346eb62ec10fb1a9b530471252247e161ff3c019abebe9a"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round3/coordination.json",
+    "bytes": 322,
+    "sha256": "2a17841a88907335fc5fbe5b7f96ceae61897d4d222bf2dbbe2729a534f1060a"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round3/feedback.json",
+    "bytes": 982676,
+    "sha256": "c89daacfbcc44673954c34dad4e417e652dc51ac8de5422e5137d917a3da535b"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round3/interfaces.json",
+    "bytes": 786,
+    "sha256": "f40c384d1325233f700a34e6217d46ea91d80137cddf4a9ddf08e1ebdb98129d"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round3/partial_results.json",
+    "bytes": 16040,
+    "sha256": "e977eaf640b9a1793b44f0eb559275ffbc42e77c1325cca9e5f3ab5fa68b56f0"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round3/proposals.json",
+    "bytes": 1915,
+    "sha256": "2ef121741c5f0646bbb5edb08864002371b0a01165470917b5f51b6d44749238"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round3/response.json",
+    "bytes": 723,
+    "sha256": "0bef864a684e0c4ffc8368e53bc10992c9888652bf318faf31728b06106baa23"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round3/results.json",
+    "bytes": 16040,
+    "sha256": "e977eaf640b9a1793b44f0eb559275ffbc42e77c1325cca9e5f3ab5fa68b56f0"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round4/commitment.json",
+    "bytes": 227,
+    "sha256": "35687d1e3f1e3a4596ebb859e93615b790b1f1d77cacb691dbd5cddee078727b"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round4/coordination.json",
+    "bytes": 322,
+    "sha256": "d982b884e60b73ca957c72dc60fe5b2e2c45101e10e1569fda5c6ed721c8c9b9"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round4/feedback.json",
+    "bytes": 1001194,
+    "sha256": "7157ecf129ae1fbcb8347f89eb9abd816852ae4546327bd94bfdb95fb015bec8"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round4/interfaces.json",
+    "bytes": 742,
+    "sha256": "c6ef3effc0ffb724688999ab4a8a9e999b7a46ac1aa8c5919e12742d1762a7c4"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round4/partial_results.json",
+    "bytes": 15979,
+    "sha256": "56a94c403dea3e6fde1a229469d27dbe81fc59da640978254ca7a26a65d7edb2"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round4/proposals.json",
+    "bytes": 1851,
+    "sha256": "b365d1628da0179a6089bf1ac4fb26370c5faf5b27ad4b58ed78670cdd9d9f97"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round4/response.json",
+    "bytes": 711,
+    "sha256": "0ff651e52fb2ff475a1d28459ee61600f4bfd4f2c77c6a9dc413ea0dd9a0440d"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round4/results.json",
+    "bytes": 15979,
+    "sha256": "56a94c403dea3e6fde1a229469d27dbe81fc59da640978254ca7a26a65d7edb2"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round5/commitment.json",
+    "bytes": 227,
+    "sha256": "053f842d05a9624757a776ffaa73ccce18039c442bcbc42e1befab9681dbdbc5"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round5/coordination.json",
+    "bytes": 322,
+    "sha256": "fcd57f35717f6a0d1f77fb9b3407049819cab02d051e663d71c07bb85e3d4352"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round5/feedback.json",
+    "bytes": 1019693,
+    "sha256": "799d56984f8ad67d72917e212e00b58ed8dba635ef5cc74de60f5d04d55b8e80"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round5/interfaces.json",
+    "bytes": 866,
+    "sha256": "3c02f1e45ecede975a809dd5131945e746d1ff52e7e3b3201f29c5497682908c"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round5/partial_results.json",
+    "bytes": 15981,
+    "sha256": "34f5a3e931fd4a62341426189025297fca2a592c80662d7bd8b861b23471ce68"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round5/proposals.json",
+    "bytes": 1864,
+    "sha256": "2789fe4552a711fb258c7f6e2634fb1becc8a685b908e3d48c02c47e6009ebda"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round5/response.json",
+    "bytes": 600,
+    "sha256": "08522359722d51d9a14aa72049f7a82ac7f908b23625baeed07d8744dfd2d697"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round5/results.json",
+    "bytes": 15981,
+    "sha256": "34f5a3e931fd4a62341426189025297fca2a592c80662d7bd8b861b23471ce68"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round6/commitment.json",
+    "bytes": 227,
+    "sha256": "2b07d5fcd791fe99152c69e7158176cd03aa12429ffb2ba685a8c094971ff1ee"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round6/coordination.json",
+    "bytes": 322,
+    "sha256": "9966a51c5a7986ca1a290dd70242761e26773a62a676a9dbcae2fb1870415280"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round6/feedback.json",
+    "bytes": 1038206,
+    "sha256": "df673e71653f930174bdca7c5fd41844fab741abb8aeaa76956287296c169973"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round6/interfaces.json",
+    "bytes": 799,
+    "sha256": "fe14bff1ca1f15a5b17a926194e2309e8ee4b6848b5a1b7862d880c2fa3129a8"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round6/partial_results.json",
+    "bytes": 15918,
+    "sha256": "2ad0f6da30b99622bc090e4b0bfaaf2ac064b8a6a5ce7d936afa49199e5135e9"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round6/proposals.json",
+    "bytes": 1794,
+    "sha256": "3409d040c8b1f12d3800223677d4709525cb62554326316bf7ec334dc7120c71"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round6/response.json",
+    "bytes": 587,
+    "sha256": "c7288776ff311704468b214a15fbec5079136060d436395041485e0fb9619788"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round6/results.json",
+    "bytes": 15918,
+    "sha256": "2ad0f6da30b99622bc090e4b0bfaaf2ac064b8a6a5ce7d936afa49199e5135e9"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round7/commitment.json",
+    "bytes": 227,
+    "sha256": "c5c7c7a785877e55b1f3bfaa5554cf9bf7829a1f46833e259bc209b0211c2c92"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round7/coordination.json",
+    "bytes": 322,
+    "sha256": "1e2119108c0ac6b741e9417d05f484a829b119a38ce51583849d92a78e6ebcae"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round7/feedback.json",
+    "bytes": 1056619,
+    "sha256": "b442bbd8c3dd7cb572e14e818acab83063bcc51d56d6ba6fc9be84995842f583"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round7/interfaces.json",
+    "bytes": 832,
+    "sha256": "641816ce337f4f6dbd00094dd289a1173dfc332ffb7cc5f72cf20d43da2c0240"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round7/partial_results.json",
+    "bytes": 15991,
+    "sha256": "28bd7233cf648db0214cd27512e12f8451b2e9a8f8c70b6c82cb09e9703ca307"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round7/proposals.json",
+    "bytes": 1862,
+    "sha256": "88a4846b4a82104bbe4125ff936cc479c3505ab7b0b509d7edccc0d43120aba7"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round7/response.json",
+    "bytes": 623,
+    "sha256": "9a6d4fd3b6b1e0be61b09ece54463bfdff1665f8f4bf01014895ad7483df3f1c"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round7/results.json",
+    "bytes": 15991,
+    "sha256": "28bd7233cf648db0214cd27512e12f8451b2e9a8f8c70b6c82cb09e9703ca307"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round8/commitment.json",
+    "bytes": 227,
+    "sha256": "55c71f6dc1ff9bad0ce4359d798d3ac246c5c401a68f0aa9f522bd8b9bbab9a7"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round8/coordination.json",
+    "bytes": 322,
+    "sha256": "fdb31ce6184733525123cbcfe8f86e34ead800399a1fde0b8ff85fc354d0f576"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round8/feedback.json",
+    "bytes": 1075078,
+    "sha256": "eb578338f23d713231051494261bcc9d6ce2919a356ae9ff730a7b007e1102d5"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round8/interfaces.json",
+    "bytes": 843,
+    "sha256": "0d226298c363631e120f62918c96cc37c256a09d8d5f51e2ce4963bb183986fb"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round8/partial_results.json",
+    "bytes": 15985,
+    "sha256": "79ae48bb9e90bd1aa9ea083b8b0f6216146228931321a5b57bcaa767633255a3"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round8/proposals.json",
+    "bytes": 1861,
+    "sha256": "fbbe361dd8ca7639678682541fed7aeef03ac5578cf648e1b851605b6d209cbe"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round8/response.json",
+    "bytes": 603,
+    "sha256": "2943947eed612626b2a4bc5552d0895d86def3551a5e8490702cf9ff525a157c"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round8/results.json",
+    "bytes": 15985,
+    "sha256": "79ae48bb9e90bd1aa9ea083b8b0f6216146228931321a5b57bcaa767633255a3"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round9/commitment.json",
+    "bytes": 228,
+    "sha256": "ad3009245ca852e7076acd5b9e310b992a89f986ef0b7abc363be278b903e62d"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round9/coordination.json",
+    "bytes": 322,
+    "sha256": "0fb6bb9ad129ed7a947bf4639a9ce9e83536af6b6ed748887859698efd7ded3c"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round9/feedback.json",
+    "bytes": 1093617,
+    "sha256": "24f8e0a7d39190fbe50893f789f07c8f1607532f849fcacbfee2293d02046cbc"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round9/interfaces.json",
+    "bytes": 786,
+    "sha256": "d002fe21e04368810bb34e76b51c8da8d58a86976f4a5b513f4817b551310059"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round9/partial_results.json",
+    "bytes": 16008,
+    "sha256": "33d23978d66f7faa2acbcb6aa4b5045dcccafefa7e5174fefa352bc944e51987"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round9/proposals.json",
+    "bytes": 1881,
+    "sha256": "6c18d996f1e357aeacf7919f0830447306263adc81d7b5244abddce67f37041f"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round9/response.json",
+    "bytes": 679,
+    "sha256": "cfbbca2942ee87cfbeaba8cd452f2fbb096bbabe3a8d5651f20a4a027b155841"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/round9/results.json",
+    "bytes": 16008,
+    "sha256": "33d23978d66f7faa2acbcb6aa4b5045dcccafefa7e5174fefa352bc944e51987"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid/state.json",
+    "bytes": 539139,
+    "sha256": "60fd32c551ffa1ee2e0a07d0f0ee4b2ee5f5a98d022661ac7478540ccdb46dfb"
+  },
+  {
+    "path": "outputs/cloak-coordination/hybrid_retained_labels.mat",
+    "bytes": 2896,
+    "sha256": "25fc67ba64dc98086d80b539abeee184b2be29b475159249dd2f543ff147a13d"
+  },
+  {
+    "path": "outputs/cloak-coordination/macro_feedback.py",
+    "bytes": 2808,
+    "sha256": "3f3d244a319fa4e3d04890ac2c0d9b5e52155ff8dc3ecf0679aaea2d9ff4d70f"
+  },
+  {
+    "path": "outputs/cloak-coordination/manifest.json",
+    "bytes": 25177,
+    "sha256": "f5f68ed14df2025141682fa34a3a8db90251ddcfccf03e7f6a7315b847af3afe"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round1/commitment.json",
+    "bytes": 228,
+    "sha256": "0049ea0dd2431b5158c1c54506bff218bc1d6febde9f60752719d9a6d913a4ff"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round1/feedback.json",
+    "bytes": 944856,
+    "sha256": "86a4dc092f0f1422dd558088f71e51ce11d82da42efe302a743fadc38bc9c4a7"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round1/partial_results.json",
+    "bytes": 15546,
+    "sha256": "4128d40b8dd97c8e5c042e8dd7c7e2d4e834d80ee8e1081c6f93dccd2318a89c"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round1/proposals.json",
+    "bytes": 1425,
+    "sha256": "a7f7ca6fb4b8d13202088ad66db3233c505c2be32df33135d6559464e9778b30"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round1/results.json",
+    "bytes": 15546,
+    "sha256": "4128d40b8dd97c8e5c042e8dd7c7e2d4e834d80ee8e1081c6f93dccd2318a89c"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round10/commitment.json",
+    "bytes": 227,
+    "sha256": "2b5afbb0a6e413c2fd6776923c07fb751842b1afa06c4b4047e6ada369a7beca"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round10/feedback.json",
+    "bytes": 1106147,
+    "sha256": "52a56de2b5d725c38684b8d44f14ee16bb9eb51e3a9d364b35f87243344c15ef"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round10/partial_results.json",
+    "bytes": 15550,
+    "sha256": "132c3521786ea6c31c24fd525e5144b3331df1e70fd7aeb3a9b05e0fa4dc936a"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round10/proposals.json",
+    "bytes": 1428,
+    "sha256": "6cb710df340f7cdeae26d267f20e947e8e8a941e45b6102155bfa0c66f4f66aa"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round10/results.json",
+    "bytes": 15550,
+    "sha256": "132c3521786ea6c31c24fd525e5144b3331df1e70fd7aeb3a9b05e0fa4dc936a"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round2/commitment.json",
+    "bytes": 227,
+    "sha256": "8268c1fcca316ab62e9e11bb4faf219a852c5d86b719e5aaab8041c6d03db32a"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round2/feedback.json",
+    "bytes": 962944,
+    "sha256": "a0f9108e0e81db4b87412712a93d83bb6faabb1e18c56b7310c392cc567e7e22"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round2/partial_results.json",
+    "bytes": 15216,
+    "sha256": "cfbef0617555fb6d1af8a8767942586fa7b7aabed6d34e6721ccc9add043634e"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round2/proposals.json",
+    "bytes": 1089,
+    "sha256": "088d21417890ae7d3159b6d624de4ca26bb5584b8548863e5c81396c4c006b36"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round2/results.json",
+    "bytes": 15216,
+    "sha256": "cfbef0617555fb6d1af8a8767942586fa7b7aabed6d34e6721ccc9add043634e"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round3/commitment.json",
+    "bytes": 227,
+    "sha256": "75699de21c91c9c258908047566a34d9e9e148c06f3c206def2d01f5d9099bca"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round3/feedback.json",
+    "bytes": 980640,
+    "sha256": "abdba89b27898803bf0ca872cb77325b2b1f2cc70e1b2573142e85a04bd8f515"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round3/partial_results.json",
+    "bytes": 15235,
+    "sha256": "70951ef5a41b78b5e98c4c51f56b702b337c31516cbee94883d4c97e79ef0148"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round3/proposals.json",
+    "bytes": 1110,
+    "sha256": "bdc7441fddef1a7fc1203430aa8e82093ed4e576af1f262e7f8c2138579a1b64"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round3/results.json",
+    "bytes": 15235,
+    "sha256": "70951ef5a41b78b5e98c4c51f56b702b337c31516cbee94883d4c97e79ef0148"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round4/commitment.json",
+    "bytes": 227,
+    "sha256": "8de48051ef9a7c37fb4b37d0056c5655a1532bd133c11fa1a615bb634ddda7ef"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round4/feedback.json",
+    "bytes": 998360,
+    "sha256": "6f78bf219d14f072dde2e8ed35393ee5420bff23550b9d6d341153667678e98e"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round4/partial_results.json",
+    "bytes": 15572,
+    "sha256": "af32ffd21dee97f2fb7ce161511fbc9acff78c9adb79ed58a8b88e8d01be931e"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round4/proposals.json",
+    "bytes": 1446,
+    "sha256": "2b9f0ad19656c2819e745396eb46fc7133ceb5a9ae06aedd28d3b49f37cf35df"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round4/results.json",
+    "bytes": 15572,
+    "sha256": "af32ffd21dee97f2fb7ce161511fbc9acff78c9adb79ed58a8b88e8d01be931e"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round5/commitment.json",
+    "bytes": 227,
+    "sha256": "a751be155001738d81970172d087dc18678c595e1d7661bf83c0bf4dae74388f"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round5/feedback.json",
+    "bytes": 1016478,
+    "sha256": "f9e0a6613bcfe8c05a26384d4ae8703d00e1ca7c9735bbc1e6a7e21b74879869"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round5/partial_results.json",
+    "bytes": 15358,
+    "sha256": "5633199b659614ad6f16d0ed265320b8b34b0aae56831e9d3c5667e1260d4b9e"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round5/proposals.json",
+    "bytes": 1226,
+    "sha256": "0bfd1694be9be59abb478f104c5bba0cfecda4b0e6cd471451aaeb6198ab9311"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round5/results.json",
+    "bytes": 15358,
+    "sha256": "5633199b659614ad6f16d0ed265320b8b34b0aae56831e9d3c5667e1260d4b9e"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round6/commitment.json",
+    "bytes": 227,
+    "sha256": "56ccae6a5a95d095e2a023d797348722a38b44872c0c4dcfe3bd0689fc08f0dd"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round6/feedback.json",
+    "bytes": 1034343,
+    "sha256": "65e03c5f77963fbed73238aa01df70e17e230383a49441284333e8b1ef5f5563"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round6/partial_results.json",
+    "bytes": 15263,
+    "sha256": "82103bdf3531e6d9560380f38a8699774db01807d118a0628fb36495b74fb77f"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round6/proposals.json",
+    "bytes": 1130,
+    "sha256": "28231a5ac2e379a6529226a14fde1b26ebe3211e1223ec8c46b58b61d02e4b24"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round6/results.json",
+    "bytes": 15263,
+    "sha256": "82103bdf3531e6d9560380f38a8699774db01807d118a0628fb36495b74fb77f"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round7/commitment.json",
+    "bytes": 227,
+    "sha256": "c9eceafd17c6c140afd00a23fbacde5452b183924fd169a53ed9e7189b3f1819"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round7/feedback.json",
+    "bytes": 1052197,
+    "sha256": "31e4456f504a1b29fefed0ac4b81301afe9c6c0844f840aa3a3d9023d84c25db"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round7/partial_results.json",
+    "bytes": 15580,
+    "sha256": "ada6df3602a294fe425c6d41ad70a941fa03b5d9f57c4ce82c7e7b2607cb58c6"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round7/proposals.json",
+    "bytes": 1448,
+    "sha256": "4e80661536579c464d8704dfa05149a98c1acadeaf722645bba5440fc26d376c"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round7/results.json",
+    "bytes": 15580,
+    "sha256": "ada6df3602a294fe425c6d41ad70a941fa03b5d9f57c4ce82c7e7b2607cb58c6"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round8/commitment.json",
+    "bytes": 227,
+    "sha256": "c926f03324497508da8972c4367aebbe2ba9b7e723a4342aba162aa78c5a7463"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round8/feedback.json",
+    "bytes": 1070395,
+    "sha256": "f841be0080d08c5ec02f3a8a32f7c52126679b86500f5d75b85eb956bd4947e2"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round8/partial_results.json",
+    "bytes": 15370,
+    "sha256": "bf0a0641e07781a57225e86cf00f0fc817d54406b3167e73d5dc8edad13f11b8"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round8/proposals.json",
+    "bytes": 1225,
+    "sha256": "01205d6a9f3646f2f59518a84895a9fbffd99eef3c92a521eacb611c5fb60425"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round8/results.json",
+    "bytes": 15370,
+    "sha256": "bf0a0641e07781a57225e86cf00f0fc817d54406b3167e73d5dc8edad13f11b8"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round9/commitment.json",
+    "bytes": 227,
+    "sha256": "66b30209a28a66396afb811d3815825ceafc93c6dcb008b2f87c3b6c62bd02bc"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round9/feedback.json",
+    "bytes": 1088271,
+    "sha256": "88995e6455a224e9de69f148a938e239ebf45aa7eb99d89708ba16947b14c86e"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round9/partial_results.json",
+    "bytes": 15364,
+    "sha256": "b6c7174507e51dca1ad7bc30861b0c7f1bb4c2dc6348ddc0fb343100a19e794a"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round9/proposals.json",
+    "bytes": 1224,
+    "sha256": "57454599a4e980e5b0fff34371cb1f27d9f0a7227676325f3dfb1481fb7ef285"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/round9/results.json",
+    "bytes": 15364,
+    "sha256": "b6c7174507e51dca1ad7bc30861b0c7f1bb4c2dc6348ddc0fb343100a19e794a"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical/state.json",
+    "bytes": 525636,
+    "sha256": "51a30133be27646182e56ea2d304cf37f6e6087d82b27c724a69b89f72363797"
+  },
+  {
+    "path": "outputs/cloak-coordination/numerical_retained_labels.mat",
+    "bytes": 2896,
+    "sha256": "ff01ae78ed8a996329056d460b6d6ca521c12e41bb7df24abbf13bf1c4b377de"
+  },
+  {
+    "path": "outputs/cloak-coordination/outside_error_fields.png",
+    "bytes": 747519,
+    "sha256": "694b04a644930798771bd37bdf81b2352c962f0cd8908f89da152007f66141a8"
+  },
+  {
+    "path": "outputs/cloak-coordination/plot_assemblies.py",
+    "bytes": 1265,
+    "sha256": "8545ab5e94f703c6a6ca366ea95a61162ac8c791d4c3b68f17e6f0cfbfb09aef"
+  },
+  {
+    "path": "outputs/cloak-coordination/plot_error_fields.py",
+    "bytes": 1947,
+    "sha256": "4639bcf9d3a0e91ca104cbe23529c6840190c9b4f4d64e3b0e006e6d3de22abb"
+  },
+  {
+    "path": "outputs/cloak-coordination/protocol.json",
+    "bytes": 2110,
+    "sha256": "4dda6a562db3bf4d9dfc73faa192e923053cbd9425382d735d2ed33bacef0dc0"
+  },
+  {
+    "path": "outputs/cloak-coordination/replay_actions.py",
+    "bytes": 1368,
+    "sha256": "d9007783e07b2efada2c6af5a78d790b0a8a43e3de5da25f8abdc685f26bd177"
+  },
+  {
+    "path": "outputs/cloak-coordination/requirements.txt",
+    "bytes": 71,
+    "sha256": "626813ef05a3d2208fbe44eb776d35a5fbb98aede1d92426f6456abf9c5a395e"
+  },
+  {
+    "path": "outputs/cloak-coordination/retained_assemblies.png",
+    "bytes": 187640,
+    "sha256": "00bffa7fe8b4c7049c86b4d1f0f8a7ebcddde2775cbf424c75dea8ffbe6e5e90"
+  },
+  {
+    "path": "outputs/cloak-coordination/run_numerical.py",
+    "bytes": 231,
+    "sha256": "42fcba783e1cbd6e784dc4a0920122d518894ca2453c1055cfdd8eab2bdbab04"
+  },
+  {
+    "path": "outputs/cloak-coordination/shared_prior_history.json",
+    "bytes": 96551,
+    "sha256": "d0faaf465443947be6d6b26f3684e169154a087874d2ca30e266c37f73cab063"
+  },
+  {
+    "path": "outputs/cloak-coordination/summarize.py",
+    "bytes": 2120,
+    "sha256": "06104a06e9b6975ac3d54652382c9daea168164b191fce3e4ceb147213879b8a"
+  },
+  {
+    "path": "outputs/cloak-coordination/summary.json",
+    "bytes": 536,
+    "sha256": "fc6cfddcef43fbd3514fcc88bdc52ec2f66575f3bad3274d0e230051c3c6ddd3"
+  },
+  {
+    "path": "outputs/cloak-coordination/supplied_assignment_result.json",
+    "bytes": 1090,
+    "sha256": "c9fbac9fd8f4055d7ac25293bd453feea02e81e0ccd8d0f9823e6e0127f3ae29"
+  },
+  {
+    "path": "outputs/cloak-coordination/trials.csv",
+    "bytes": 13836,
+    "sha256": "9ad93cd230c74ed8133e15eac085f2c31e588087a53ef6c53d834acb3f04f2e0"
+  },
+  {
+    "path": "outputs/cloak-coordination/write_report.py",
+    "bytes": 4728,
+    "sha256": "49fdadb4d2c606782fe8734471d97c16fc7fdf023111bfa1b729b913e32b2fa8"
+  },
+  {
     "path": "outputs/cloak-experiment/REPRODUCE.txt",
     "bytes": 3746,
     "sha256": "ea991d953d3506ddd32c7ca5edcbc1f8a5defd74aa67d69e4ac88f13ab04f2ed"
@@ -896,13 +1726,68 @@
   },
   {
     "path": "outputs/overleaf-metamaterial-selector/COMPILATION.txt",
-    "bytes": 130,
-    "sha256": "5deed6edb0b5499979ae189c40df66b0cf03e3c9d37b08cd1125238a2b105f1c"
+    "bytes": 400,
+    "sha256": "024fa61e0b4f7d5baeda864c1814833fb5e71b86054b7dc08b6d9e3892d3532b"
   },
   {
     "path": "outputs/overleaf-metamaterial-selector/UPLOAD.txt",
-    "bytes": 661,
-    "sha256": "dd97b361d5ac22f5dcc584029d14222eec82c1962a201e9afbcd4bfac0ceed62"
+    "bytes": 498,
+    "sha256": "01ecf588dd630eae47df5a343640ad96823d35212a5dc83ae7bd386ea479f834"
+  },
+  {
+    "path": "outputs/overleaf-metamaterial-selector/cloak-audit.json",
+    "bytes": 213,
+    "sha256": "9fa6ee45f73a4a8c8aeb5e1c1a391098aa6d4b0c0479f0ef904230f05e9411bf"
+  },
+  {
+    "path": "outputs/overleaf-metamaterial-selector/cloak-comparison.png",
+    "bytes": 117141,
+    "sha256": "d19d0f5d6a02206cb07ac24f2782d025b336c9aa990f0fce59ba25c657187165"
+  },
+  {
+    "path": "outputs/overleaf-metamaterial-selector/cloak-force_balance.json",
+    "bytes": 704,
+    "sha256": "4de9dfae109eee9c2a801ce99476112ac37694bd49f426022b7fc3e17464a6d4"
+  },
+  {
+    "path": "outputs/overleaf-metamaterial-selector/cloak-outside_error_fields.png",
+    "bytes": 747519,
+    "sha256": "694b04a644930798771bd37bdf81b2352c962f0cd8908f89da152007f66141a8"
+  },
+  {
+    "path": "outputs/overleaf-metamaterial-selector/cloak-protocol.json",
+    "bytes": 2110,
+    "sha256": "4dda6a562db3bf4d9dfc73faa192e923053cbd9425382d735d2ed33bacef0dc0"
+  },
+  {
+    "path": "outputs/overleaf-metamaterial-selector/cloak-retained_assemblies.png",
+    "bytes": 187640,
+    "sha256": "00bffa7fe8b4c7049c86b4d1f0f8a7ebcddde2775cbf424c75dea8ffbe6e5e90"
+  },
+  {
+    "path": "outputs/overleaf-metamaterial-selector/cloak-summary.json",
+    "bytes": 536,
+    "sha256": "fc6cfddcef43fbd3514fcc88bdc52ec2f66575f3bad3274d0e230051c3c6ddd3"
+  },
+  {
+    "path": "outputs/overleaf-metamaterial-selector/cloak-trials.csv",
+    "bytes": 13836,
+    "sha256": "9ad93cd230c74ed8133e15eac085f2c31e588087a53ef6c53d834acb3f04f2e0"
+  },
+  {
+    "path": "outputs/overleaf-metamaterial-selector/figure1-coordinated-workflow.pdf",
+    "bytes": 48111,
+    "sha256": "44873f513d1420f4ad21e18d470725c8f90292c0bd184655b8bc778041b7d689"
+  },
+  {
+    "path": "outputs/overleaf-metamaterial-selector/figure1-coordinated-workflow.png",
+    "bytes": 309996,
+    "sha256": "67e540417ea95f12d349aefcf2f619177d9816a5e2131c6d04abe07babc0f74c"
+  },
+  {
+    "path": "outputs/overleaf-metamaterial-selector/figure1-coordinated-workflow.svg",
+    "bytes": 239014,
+    "sha256": "cbb80e144da283379d8770cf96910729fa64dfc4952a04b012c157b61ba10607"
   },
   {
     "path": "outputs/overleaf-metamaterial-selector/llm_actions.json",
@@ -911,8 +1796,13 @@
   },
   {
     "path": "outputs/overleaf-metamaterial-selector/main.tex",
-    "bytes": 63633,
-    "sha256": "23d04132495d5881708761e847727fa6b9f74a55ff1ec8815d94178073eefcd3"
+    "bytes": 305617,
+    "sha256": "d277fe8ea3ad58c3365bf5c106a057ef89253adf8add2f8e4a1b987eba6ff10b"
+  },
+  {
+    "path": "outputs/overleaf-metamaterial-selector/metamaterial-swarm-paper.pdf",
+    "bytes": 442982,
+    "sha256": "fd77f00e0b69421cc2ec6f1c405f59a4d727b2d11a8066540014ec18e76e19af"
   },
   {
     "path": "outputs/overleaf-metamaterial-selector/metrics.csv",
@@ -958,6 +1848,31 @@
     "path": "outputs/overleaf-metamaterial-selector/void_sensitivity.json",
     "bytes": 933,
     "sha256": "8d67e6e13f9c183c61e120ff40a7c6cdd5ab072f8b93dd459f994b59c9844ba3"
+  },
+  {
+    "path": "outputs/paper-figures/figure1-body.tex",
+    "bytes": 42024,
+    "sha256": "6afb095965efd139f9a05592b6c69413ca6e8663c76d3e30972f066cc5684465"
+  },
+  {
+    "path": "outputs/paper-figures/figure1-coordinated-workflow.pdf",
+    "bytes": 48111,
+    "sha256": "44873f513d1420f4ad21e18d470725c8f90292c0bd184655b8bc778041b7d689"
+  },
+  {
+    "path": "outputs/paper-figures/figure1-coordinated-workflow.png",
+    "bytes": 309996,
+    "sha256": "67e540417ea95f12d349aefcf2f619177d9816a5e2131c6d04abe07babc0f74c"
+  },
+  {
+    "path": "outputs/paper-figures/figure1-coordinated-workflow.svg",
+    "bytes": 239014,
+    "sha256": "cbb80e144da283379d8770cf96910729fa64dfc4952a04b012c157b61ba10607"
+  },
+  {
+    "path": "outputs/paper-figures/figure1-scene.json",
+    "bytes": 85760,
+    "sha256": "59baf5c6f17381a77485a64d5b5710b07d2f46d36d24cbe1cfc4ee6dee61d402"
   },
   {
     "path": "work/add_agent_figures.py",
@@ -1028,6 +1943,16 @@
     "path": "work/finalize_manuscript.py",
     "bytes": 3804,
     "sha256": "3c999e3b4735f622235421fd2aa3bfa32401083a9f93b7b7183f806b8e26f14d"
+  },
+  {
+    "path": "work/manuscript-revision/build_figure1.py",
+    "bytes": 10729,
+    "sha256": "e6c0be9d1826c0238c4f962cf00208316a19407abacd9b4db9e3807ad859d937"
+  },
+  {
+    "path": "work/manuscript-revision/rewrite_paper.py",
+    "bytes": 50292,
+    "sha256": "17887510cffa2ac983b346814c93b81690a99c6ebaa4bf102e718884c9517bd6"
   },
   {
     "path": "work/pictorial_figures.py",

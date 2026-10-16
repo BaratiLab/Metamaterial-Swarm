@@ -1,51 +1,69 @@
 # Metamaterial Swarm
 
-Physics-guided multi-agent selection of heterogeneous metamaterial unit cells, with beam and mechanical-cloaking experiments and numerical-search comparators.
+Coordinated language agents and numerical tools for discrete metamaterial assembly, validated by full-resolution finite elements.
 
-## Source and reproducibility
+![Coordinated selection workflow](figure1-coordinated-workflow.png)
 
-Download and extract **Metamaterial-Swarm-source-and-results.zip**. It preserves the original directory structure, all project-authored Python and MATLAB code, committed agent actions, numerical outcomes, figures, and LaTeX manuscript source. `MANIFEST.json` lists every archived file and its SHA-256 checksum. Python source was checked for syntax before upload. Installed third-party runtimes and large solver caches are excluded.
+The **numerical tool** calibrates surrogate scores and proposes a repair. The **response agent** composes helpful changes and tests ablations. The **interface agent** explores compatible neighboring cells. The **coordinator** resolves duplicates, checks actions, and commits three proposals before FEM evaluation. The shared log records every success and failure; only lower measured loss can replace the incumbent.
+
+## Completed mechanical-cloaking experiment
+
+Both methods restart from the supplied assignment and receive the same 18-trial historical ledger. Each gets **30 distinct new full-resolution FEM evaluations**, in ten rounds of three.
+
+| Method | Final masked displacement loss | Reduction from supplied assignment |
+| --- | ---: | ---: |
+| Supplied assignment | 12.7610% | — |
+| Adaptive numerical search | 11.6308% | 8.86% |
+| Coordinated hybrid | **10.6946%** | **16.19%** |
+
+The hybrid final loss is **8.05% lower** than this numerical comparator's. The problem has 2.25 million Q4 elements, 168 independent selectable cells, and 15 local candidates per cell. Exact mirror reduction retains the original pixel resolution. All 60 new solves passed force-residual checks; final element-force and reaction checks passed. Both final assemblies have one connected solid component.
+
+![Retained loss trajectories](coordination-comparison.png)
+
+This is one exploratory case with historical knowledge, a fixed numerical policy, and adaptive assistant-mediated decisions. It does not establish general LLM superiority or isolate coordination causally. A matched uncoordinated swarm control, GNN comparison, held-out cases, repeated-model trials, manufacturing validation, and matched token/wall-clock costs have not been run.
+
+## Paper and figures
+
+- [Rewritten manuscript PDF](metamaterial-swarm-paper.pdf)
+- [Standalone LaTeX source](main.tex): embeds all manuscript diagrams and plots; compile with pdfLaTeX without external graphics or BibTeX.
+- [Overleaf-ready package](overleaf-metamaterial-selector.zip)
+- Editable Figure 1: [SVG](figure1-coordinated-workflow.svg), [PDF](figure1-coordinated-workflow.pdf), [PNG](figure1-coordinated-workflow.png).
+- [Detailed coordination report](COORDINATION-RESULTS.md)
+- [Coordination code, actions, validation, and results](cloak-coordination-results.zip)
+
+The manuscript centers on cloaking, with the earlier beam study as supporting evidence. Author identities and journal declarations remain deferred and must be completed before submission. This private repository is a working research record, not a permanent public archive.
+
+## Complete source distribution
+
+Download [Metamaterial-Swarm-source-and-results.zip](Metamaterial-Swarm-source-and-results.zip) and extract it. The original structure is preserved, including all project-authored Python/MATLAB code, recorded proposals, outcomes, figure-generation source, and rewritten paper. [MANIFEST.json](MANIFEST.json) lists every archived file and SHA-256 checksum. Installed third-party runtimes and large displacement caches are excluded.
 
 | Extracted directory | Contents |
 | --- | --- |
-| `outputs/metamaterial-selector/` | Beam benchmark, numerical selectors, swarm actions, public library data, validation, and results |
-| `outputs/cloak-experiment/` | Full-resolution cloak FEM port, adaptive selector, action replay, all 18 candidate assessments, retained assignments, and plots |
+| `outputs/cloak-coordination/` | Primary 30-versus-30 study, coordinator, numerical selector, all 60 trials, hashes, retained MAT labels, validation, and replay |
+| `outputs/cloak-experiment/` | Earlier nine-versus-nine study, failures, and disclosed policy development |
 | `outputs/cloak-review/` | Supplied-package adapter, audit, and MATLAB wrapper |
-| `outputs/overleaf-metamaterial-selector/` | LaTeX manuscript and supporting beam results |
-| `outputs/agent-figures/` | Conceptual figures and visual checks |
-| `work/` | Project-authored figure-generation, manuscript-generation, validation, and exploratory scripts; historical utilities may contain original-machine paths |
+| `outputs/metamaterial-selector/` | Supporting beam benchmark, public data, proposals, and verification |
+| `outputs/overleaf-metamaterial-selector/` | Rewritten standalone manuscript and supporting evidence |
+| `outputs/paper-figures/` | Editable overview scene, TikZ, SVG/PDF/PNG, and result figures |
+| `work/` | Project-authored generation, audit, and exploratory utilities; historical scripts may retain original-machine paths |
 
-Begin with `outputs/metamaterial-selector/README.md`, `outputs/cloak-experiment/REPRODUCE.txt`, and `outputs/cloak-experiment/RESULTS.txt`. Install each experiment's `requirements.txt` in its own environment. Preserve the archived records; use a fresh output directory for replay.
+## Reproduce saved decisions
 
-### Replaying the cloaking experiment
-
-The original `Agent_Meta` input package supplied by Liwei Wang must be provided separately. It is not redistributed here. From the extracted `outputs/cloak-experiment/` directory:
+The original `Agent_Meta` input folder supplied by Liwei Wang is required separately and is **not redistributed**. Use Python 3.11 and `outputs/cloak-coordination/requirements.txt` in an isolated environment. From that extracted directory:
 
 ```bash
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python replay_actions.py \
   --package /absolute/path/Agent_Meta --out /absolute/path/new-replay
 ```
 
-Use Python 3.11 and the pinned dependencies. This replays the archived literal proposals without requiring new LLM decisions. The replay entry point was supplied after the experiment and has not itself been rerun through all 18 assessments. Numerical validation and the original assessments are recorded separately. Set `CLOAK_PACKAGE_DIR` and `CLOAK_WORK_DIR` when using `experiment.py` on another machine.
+This recomputes 60 saved proposals with fresh large FEM solves, without generating new LLM decisions. The replay entry point was supplied after the study and has not been redundantly rerun through all 60 assessments. Original executed evaluations, audit, and force-balance checks are preserved. See `REPRODUCE.txt`; use a fresh output directory.
 
-## Measured cloaking results
+Exact model snapshot and decoding settings were not captured. Literal actions, reasons, and numerical outputs therefore have a stronger reproducibility basis than regeneration of language-agent decisions. This is a research implementation, not an unattended LLM API service.
 
-| Method | Displacement loss | Relative reduction from supplied assignment |
-| --- | ---: | ---: |
-| Supplied assignment | 12.7610% | — |
-| Adaptive numerical search | 12.3594% | 3.15% |
-| Three-agent swarm | 12.5406% | 1.73% |
+## Earlier findings and attribution
 
-Each search received nine distinct full-resolution candidate evaluations over three rounds, starting from the same supplied assignment. Evaluation retains the original 1500 × 1500 pixel discretization using exact mirror symmetry. The reference displacement comparison has relative monitored error about 1.3e-10. This is a Python port, not a MATLAB execution or a match to an author-reported scalar loss.
+The preliminary cloak experiment favored numerical search: 12.3594% versus 12.5406% for the swarm at nine evaluations each. All 18 outcomes initialize both primary methods. The supporting beam study includes a failed initial language-guided repair and a later common-incumbent competition; its objective and protocol differ from the cloak comparison.
 
-This is one exploratory case. The numerical policy was refined during the session; neither a preregistered comparison nor a statistical superiority claim is warranted. Both arms used a shared homogenized approximate model for proposal guidance. Full-resolution FEM determines acceptance. LLM decision records are archived, but model snapshot and decoding settings were not fully recorded. The manuscript currently covers the earlier beam study; it has not yet been updated with the cloaking results.
+The public library is by Liwei Wang, Jagannadh Boddapati, Ke Liu, Ping Zhu, Chiara Daraio, and Wei Chen, *2D orthotropic metamaterial micorstructrue dataset*, [Figshare version 1](https://doi.org/10.6084/m9.figshare.17141975.v1), CC BY 4.0. Metadata and checksums are retained. We thank Liwei Wang for the separate cloak assignment, evaluator, and summary; this does not imply endorsement of the new claims.
 
-## Proposed next experiment
-
-Improved coordination would combine a numerical optimizer, response and interface specialists, a shared measured experiment log, duplicate suppression, and FEM-based retention. A comparison against numerical search alone at 30 new FEM evaluations per method is proposed. **That coordinated experiment has not been run.**
-
-## Attribution and redistribution
-
-The beam library is from Liwei Wang et al., *2D orthotropic metamaterial micorstructrue dataset*, Figshare, [doi:10.6084/m9.figshare.17141975.v1](https://doi.org/10.6084/m9.figshare.17141975.v1), CC BY 4.0. Its original metadata and checksum records are retained under `outputs/metamaterial-selector/data/`.
-
-Related paper: Wang et al., *Deep generative modeling for mechanistic-based learning and design of metamaterial systems*, CMAME 372 (2020), 113377, [doi:10.1016/j.cma.2020.113377](https://doi.org/10.1016/j.cma.2020.113377). The beam study is paper-inspired and does not reproduce every setting in that paper. The private author-supplied cloaking input package and correspondence are excluded. No new blanket software license is assigned by this research snapshot.
+Related papers: [Wang et al., CMAME 372 (2020), 113377](https://doi.org/10.1016/j.cma.2020.113377); [Wang et al., PNAS 119 (2022), e2122185119](https://doi.org/10.1073/pnas.2122185119). We do not claim to beat their published designs. Private correspondence and author-supplied inputs are excluded. No new blanket software license is assigned by this snapshot.
