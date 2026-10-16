@@ -1,14 +1,14 @@
 # Metamaterial Swarm
 
-Coordinated language agents and numerical tools for discrete metamaterial assembly, validated by full-resolution finite elements.
+Physics-guided multi-agent selection of heterogeneous mechanical metamaterials, evaluated with full-resolution finite elements.
 
 ![Coordinated selection workflow](figure1-coordinated-workflow.png)
 
-The **numerical tool** calibrates surrogate scores and proposes a repair. The **response agent** composes helpful changes and tests ablations. The **interface agent** explores compatible neighboring cells. The **coordinator** resolves duplicates, checks actions, and commits three proposals before FEM evaluation. The shared log records every success and failure; only lower measured loss can replace the incumbent.
+A numerical proposer calibrates surrogate scores and nominates a repair. A response specialist composes useful changes and tests ablations; an interface specialist explores compatible neighboring cells. Coordination enforces valid, distinct assignments before evaluation. The finite-element solver measures the objective, and only lower measured loss replaces the incumbent.
 
-## Completed mechanical-cloaking experiment
+## Mechanical-cloaking benchmark
 
-Both methods restart from the supplied assignment and receive the same 18-trial historical ledger. Each gets **30 distinct new full-resolution FEM evaluations**, in ten rounds of three.
+The domain contains 2.25 million Q4 elements, 168 independent selectable cells, and 15 local candidates per cell. Mirror symmetry reduces the solve while preserving the original pixel resolution. Adaptive numerical search and the coordinated hybrid start from the same supplied assignment and identical 18-trial historical ledger. Each receives 30 distinct new FEM evaluations in ten rounds of three.
 
 | Method | Final masked displacement loss | Reduction from supplied assignment |
 | --- | ---: | ---: |
@@ -16,66 +16,64 @@ Both methods restart from the supplied assignment and receive the same 18-trial 
 | Adaptive numerical search | 11.6308% | 8.86% |
 | Coordinated hybrid | **10.6946%** | **16.19%** |
 
-The hybrid final loss is **8.05% lower** than this numerical comparator's. The problem has 2.25 million Q4 elements, 168 independent selectable cells, and 15 local candidates per cell. Exact mirror reduction retains the original pixel resolution. All 60 new solves passed force-residual checks; final element-force and reaction checks passed. Both final assemblies have one connected solid component.
+The hybrid's final loss is 8.05% lower than this numerical comparator's. All 60 candidate evaluations passed the recorded force-residual checks. Final element-force and reaction checks passed, and both retained structures have one connected solid component.
 
-![Retained loss trajectories](coordination-comparison.png)
+![Retained displacement-loss trajectories](coordination-comparison.png)
 
-This is one exploratory case with historical knowledge, a fixed numerical policy, and adaptive assistant-mediated decisions. It does not establish general LLM superiority or isolate coordination causally. A matched uncoordinated swarm control, GNN comparison, held-out cases, repeated-model trials, manufacturing validation, and matched token/wall-clock costs have not been run.
+This is one exploratory case with historical knowledge and a fixed numerical comparison policy. Equal FEM counts do not imply equal token, latency, or computation budgets. The experiment does not establish general LLM superiority or isolate the causal effect of coordination. A matched uncoordinated control, GNN comparison, held-out cases, and manufacturing validation remain outside the reported study.
 
-## Paper and figures
+## Structures and stress fields
 
-- [Rewritten manuscript PDF](metamaterial-swarm-paper.pdf)
-- [LaTeX source](main.tex): compile with pdfLaTeX and the two PNG files alongside it; no BibTeX database is required.
-- [Overleaf-ready package](overleaf-metamaterial-selector.zip)
-- Editable Figure 1: [SVG](figure1-coordinated-workflow.svg), [PDF](figure1-coordinated-workflow.pdf), [PNG](figure1-coordinated-workflow.png).
-- [Detailed coordination report](COORDINATION-RESULTS.md)
-- [Coordination code, actions, validation, and results](cloak-coordination-results.zip)
+![Retained microstructure assignments](cloak-structure-evolution.png)
 
-The manuscript centers on cloaking, with the earlier beam study as supporting evidence. Liwei Wang is first author; Amir Barati Farimani is corresponding author, with CMU Mechanical Engineering, Chemical Engineering, Materials Science and Engineering, and Machine Learning affiliations. Final contributions, funding, and conflict declarations still require author review. This private repository is a working research record, not a permanent public archive.
-
-The manuscript contains **40 cited references**, with expanded related work on the Wang metamaterial design lineage, compatible multiscale assembly, numerical optimization, and scientific/engineering agents. Published articles and cited preprint versions are distinguished. [Reference metadata and provenance](reference-audit.json) accompany the source.
-
-## Actual structures and recovered stresses
-
-![Actual retained structures](cloak-structure-evolution.png)
-
-![Stress fields on actual geometries](cloak-stress-fields.png)
+![Recovered stresses on the actual geometries](cloak-stress-fields.png)
 
 ![Exterior stress profiles](cloak-stress-profiles.png)
 
-The new figures use original pixel geometries and saved fine displacement fields, with no new equilibrium solves. Q4 center-stress recovery passes stiffness quadrature and affine-patch checks. Local fields share color limits; clipped extrema are disclosed. Stress was not an optimization objective: fixed-exterior tensor mismatch is 11.6298% supplied, 11.8811% numerical, and 11.5985% hybrid. The displacement improvement does not imply a comparable stress improvement. Data and recovery checks are in the source archive; high-resolution publication exports are in [paper-figures.zip](paper-figures.zip).
+The figures use original pixel geometries and saved fine displacement fields. Stress recovery uses Q4 element-center strains and passes stiffness-quadrature and affine-patch checks. Local fields use common color limits with disclosed saturation. The fixed-exterior tensor mismatch is 11.6298% for the supplied assignment, 11.8811% for numerical search, and 11.5985% for the hybrid. Stress is a secondary diagnostic, not the optimized objective; the displacement improvement does not imply a comparable stress improvement.
 
-## Complete source distribution
+## Paper, code, and data
 
-Download [Metamaterial-Swarm-source-and-results.zip](Metamaterial-Swarm-source-and-results.zip) and extract it. The original structure is preserved, including all project-authored Python/MATLAB code, recorded proposals, outcomes, figure-generation source, and rewritten paper. Rendered PNG/PDF/SVG assets are distributed in the separate publication-figure and Overleaf archives to keep each upload below GitHub’s per-file limit; required paper PNGs are also at repository root. [MANIFEST.json](MANIFEST.json) lists every archived file and SHA-256 checksum. Installed third-party runtimes and large displacement caches are excluded.
+Authors: **Liwei Wang** and **Amir Barati Farimani** (corresponding author).
 
-| Extracted directory | Contents |
+- [Paper](metamaterial-swarm-paper.pdf) and [LaTeX source](main.tex).
+- [Manuscript package](overleaf-metamaterial-selector.zip): compile `main.tex` with pdfLaTeX, keeping the two required PNG figures alongside it.
+- [Scientific source and results](Metamaterial-Swarm-source-and-results.zip), with file checksums in [MANIFEST.json](MANIFEST.json).
+- [Cloaking code and recorded evaluations](cloak-coordination-results.zip) and [results report](COORDINATION-RESULTS.md).
+- [Publication figures and profile data](paper-figures.zip).
+- Algorithm overview: [SVG](figure1-coordinated-workflow.svg), [PDF](figure1-coordinated-workflow.pdf), and [PNG](figure1-coordinated-workflow.png).
+
+The source archive preserves the project directory structure:
+
+| Directory | Contents |
 | --- | --- |
-| `outputs/cloak-coordination/` | Primary 30-versus-30 study, coordinator, numerical selector, all 60 trials, hashes, retained MAT labels, validation, and replay |
-| `outputs/cloak-experiment/` | Earlier nine-versus-nine study, failures, and disclosed policy development |
-| `outputs/cloak-review/` | Supplied-package adapter, audit, and MATLAB wrapper |
-| `outputs/metamaterial-selector/` | Supporting beam benchmark, public data, proposals, and verification |
-| `outputs/overleaf-metamaterial-selector/` | Rewritten standalone manuscript and supporting evidence |
-| `outputs/paper-figures/` | Editable overview scene, TikZ, SVG/PDF/PNG, and result figures |
-| `work/` | Project-authored generation, audit, and exploratory utilities; historical scripts may retain original-machine paths |
+| `outputs/cloak-coordination/` | Primary matched-budget comparison, selectors, proposal records, validation, retained labels, and replay |
+| `outputs/cloak-experiment/` | Preliminary cloak experiment and numerical checks |
+| `outputs/cloak-review/` | Supplied-package adapter, MATLAB wrapper, and geometry checks |
+| `outputs/metamaterial-selector/` | Supporting beam benchmark and public unit-cell data |
+| `outputs/overleaf-metamaterial-selector/` | Manuscript source and supporting results |
+| `outputs/paper-figures/` | Figure source, profile data, and stress-recovery validation |
+| `work/` | Scientific plotting, evaluation, and validation utilities |
 
-## Reproduce saved decisions
+Rendered figures and the paper PDF are supplied in their separate archives. Installed runtimes and large displacement caches are excluded.
 
-The original `Agent_Meta` input folder supplied by Liwei Wang is required separately and is **not redistributed**. Use Python 3.11 and `outputs/cloak-coordination/requirements.txt` in an isolated environment. From that extracted directory:
+## Reproduction
+
+The original `Agent_Meta` input folder supplied by Liwei Wang is required separately and is not redistributed. Use Python 3.11 with `outputs/cloak-coordination/requirements.txt` in an isolated environment. From the extracted `outputs/cloak-coordination/` directory:
 
 ```bash
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python replay_actions.py \
   --package /absolute/path/Agent_Meta --out /absolute/path/new-replay
 ```
 
-This recomputes 60 saved proposals with fresh large FEM solves, without generating new LLM decisions. The replay entry point was supplied after the study and has not been redundantly rerun through all 60 assessments. Original executed evaluations, audit, and force-balance checks are preserved. See `REPRODUCE.txt`; use a fresh output directory.
+The replay recomputes the 60 recorded proposals with fresh FEM solves. It does not regenerate LLM decisions. Use a fresh output directory and consult `REPRODUCE.txt` for the inputs, dependencies, and cache conventions. The complete replay entry point has not been independently rerun through all 60 cases; the original evaluations and validation records are included.
 
-Exact model snapshot and decoding settings were not captured. Literal actions, reasons, and numerical outputs therefore have a stronger reproducibility basis than regeneration of language-agent decisions. This is a research implementation, not an unattended LLM API service.
+Hybrid choices were assistant-mediated. Exact model snapshot and decoding settings were not recorded, so the literal proposals and measured outcomes are more reproducible than regeneration of the language-agent decisions. Stress postprocessing additionally requires the corresponding saved displacement fields.
 
-## Earlier findings and attribution
+## Supporting studies and attribution
 
-The preliminary cloak experiment favored numerical search: 12.3594% versus 12.5406% for the swarm at nine evaluations each. All 18 outcomes initialize both primary methods. The supporting beam study includes a failed initial language-guided repair and a later common-incumbent competition; its objective and protocol differ from the cloak comparison.
+The preliminary nine-evaluation cloak comparison favored numerical search: 12.3594% versus 12.5406% for the swarm. Its 18 outcomes initialize both primary methods. The beam study includes an unsuccessful initial language-guided repair and a later common-incumbent comparison; its objective and protocol differ from the cloaking benchmark.
 
-The public library is by Liwei Wang, Jagannadh Boddapati, Ke Liu, Ping Zhu, Chiara Daraio, and Wei Chen, *2D orthotropic metamaterial micorstructrue dataset*, [Figshare version 1](https://doi.org/10.6084/m9.figshare.17141975.v1), CC BY 4.0. Metadata and checksums are retained. Liwei Wang supplied the separate cloak assignment, evaluator, and summary and is listed as first author of the working manuscript; all authors must review the final claims.
+The public microstructure library is by Liwei Wang, Jagannadh Boddapati, Ke Liu, Ping Zhu, Chiara Daraio, and Wei Chen, *2D orthotropic metamaterial micorstructrue dataset*, [Figshare version 1](https://doi.org/10.6084/m9.figshare.17141975.v1), CC BY 4.0. Dataset metadata and checksums are included.
 
-Related papers: [Wang et al., CMAME 372 (2020), 113377](https://doi.org/10.1016/j.cma.2020.113377); [Wang et al., PNAS 119 (2022), e2122185119](https://doi.org/10.1073/pnas.2122185119). We do not claim to beat their published designs. Private correspondence and author-supplied inputs are excluded. No new blanket software license is assigned by this snapshot.
+Related design frameworks: [Wang et al., CMAME 372 (2020), 113377](https://doi.org/10.1016/j.cma.2020.113377) and [Wang et al., PNAS 119 (2022), e2122185119](https://doi.org/10.1073/pnas.2122185119). The comparison here does not claim to beat those published designs. Author-supplied inputs and private correspondence are excluded. No blanket software license is assigned by this distribution.

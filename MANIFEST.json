@@ -6,8 +6,8 @@
   },
   {
     "path": "outputs/cloak-coordination/RESULTS.md",
-    "bytes": 4133,
-    "sha256": "83a8d0141429a1316562b7be46dbe42617d500b86d2522a57a058b41e02fc6ba"
+    "bytes": 4066,
+    "sha256": "98ae335827fe211fe0e3aeaef6837bee8e9812f6d1ef8d7e32f67d64f7ad961f"
   },
   {
     "path": "outputs/cloak-coordination/adaptive_selector.py",
@@ -821,8 +821,8 @@
   },
   {
     "path": "outputs/cloak-experiment/RESULTS.txt",
-    "bytes": 7867,
-    "sha256": "e83c42bc63e7cedd13a198d9ea1c69797c489c3fc20ae3bb2d4e95787f317098"
+    "bytes": 7600,
+    "sha256": "e8b5bba9f9fdf1ae7e6041e07673f697f536e7f2a722791b123e2b69ee77c495"
   },
   {
     "path": "outputs/cloak-experiment/adaptive_selector.py",
@@ -1153,11 +1153,6 @@
     "path": "outputs/cloak-experiment/validation.json",
     "bytes": 343,
     "sha256": "eeb219b140df50d971b2e1fed8f99b64e2a27cca0a54372a052e0ca0205866a5"
-  },
-  {
-    "path": "outputs/cloak-review/ASSESSMENT.txt",
-    "bytes": 9463,
-    "sha256": "e642c0968ecca3b5026808dd8721d8af767f3d6f7d75a75cce2935ae9b55b024"
   },
   {
     "path": "outputs/cloak-review/RUN.txt",
@@ -1625,16 +1620,6 @@
     "sha256": "8d67e6e13f9c183c61e120ff40a7c6cdd5ab072f8b93dd459f994b59c9844ba3"
   },
   {
-    "path": "outputs/overleaf-metamaterial-selector/COMPILATION.txt",
-    "bytes": 453,
-    "sha256": "be790b200c10ef865a293189ed848cb9ea343ff67bb25e57864d86b3bea9ab25"
-  },
-  {
-    "path": "outputs/overleaf-metamaterial-selector/UPLOAD.txt",
-    "bytes": 526,
-    "sha256": "7926eb0f675f9e8e1aaf0c489dc33d3a1cbb60d4435eab2f3923ccf15b730b95"
-  },
-  {
     "path": "outputs/overleaf-metamaterial-selector/cloak-audit.json",
     "bytes": 213,
     "sha256": "9fa6ee45f73a4a8c8aeb5e1c1a391098aa6d4b0c0479f0ef904230f05e9411bf"
@@ -1715,11 +1700,6 @@
     "sha256": "59baf5c6f17381a77485a64d5b5710b07d2f46d36d24cbe1cfc4ee6dee61d402"
   },
   {
-    "path": "outputs/paper-figures/reference-audit.json",
-    "bytes": 17235,
-    "sha256": "0563d30cae2d8b2c494e8782c6b15de62be68067c8a7b534ca86918f4e38020f"
-  },
-  {
     "path": "outputs/paper-figures/stress-profiles.csv",
     "bytes": 8961,
     "sha256": "8baa6b6b927a98af690a9da38d2a8b6620252c33d917c1fd5eb4c38ca4ab9a2c"
@@ -1728,16 +1708,6 @@
     "path": "outputs/paper-figures/stress-recovery-validation.json",
     "bytes": 3159,
     "sha256": "6efeed796d84419da4e24074d1d9c926acf3d9851cbc1ef736cc0f3f51772f8b"
-  },
-  {
-    "path": "work/add_agent_figures.py",
-    "bytes": 8300,
-    "sha256": "d1f11d6c425fba3f5e72c47c78a68aa8c0a2c774ec00f43594f6633eff73afb0"
-  },
-  {
-    "path": "work/build_latex_report.py",
-    "bytes": 20417,
-    "sha256": "0a7f4158c1c75ec7e74e8001b95eae6810dde7231b77365d2ecb0f5230211fab"
   },
   {
     "path": "work/cloak-experiment/adaptive_selector_before_scale_adjustment.py",
@@ -1790,49 +1760,9 @@
     "sha256": "679b553e3aaf2984251ef9fccebfe84947013f17e6c4c234dceb34555a9af789"
   },
   {
-    "path": "work/expand_manuscript.py",
-    "bytes": 20444,
-    "sha256": "46008cd70b707ac8b2817079ad67450ad731c2a40e140c7fbd008c1b6a38f809"
-  },
-  {
-    "path": "work/finalize_manuscript.py",
-    "bytes": 3804,
-    "sha256": "3c999e3b4735f622235421fd2aa3bfa32401083a9f93b7b7183f806b8e26f14d"
-  },
-  {
-    "path": "work/manuscript-revision/add_authors_and_fields.py",
-    "bytes": 10654,
-    "sha256": "7e780b5f04d8b530b62ee8f0277de70b3ada54ea9d7cd01324623726cc6c6664"
-  },
-  {
     "path": "work/manuscript-revision/build_figure1.py",
     "bytes": 10729,
     "sha256": "e6c0be9d1826c0238c4f962cf00208316a19407abacd9b4db9e3807ad859d937"
-  },
-  {
-    "path": "work/manuscript-revision/embed_raster_figures.py",
-    "bytes": 2302,
-    "sha256": "bc1fd39345b4a3cea55f87086d24966ce73c3b0cecf53e23a7c305872a783179"
-  },
-  {
-    "path": "work/manuscript-revision/expand_references.py",
-    "bytes": 22463,
-    "sha256": "7db6aa5ff4ed0d5385b88f92a4bf201f9dbf995fef7e06585ab27fec9e8930ca"
-  },
-  {
-    "path": "work/manuscript-revision/package_update.py",
-    "bytes": 7043,
-    "sha256": "0da464a9410d3dfcd086803f1df5fd21a0ab67c8c357c30e6fa2908008ab1d97"
-  },
-  {
-    "path": "work/manuscript-revision/rewrite_paper.py",
-    "bytes": 51370,
-    "sha256": "5b75cbd4f4d4ebc2a2891996cf9812a705e75529617f564a7d74ece7674af1aa"
-  },
-  {
-    "path": "work/manuscript-revision/stress-paper-section.tex",
-    "bytes": 13840,
-    "sha256": "2bd7150313340bd94d7c07bdc6bb01071260b4ac7ed77d1598540e29b3debad5"
   },
   {
     "path": "work/pictorial_figures.py",
@@ -1843,10 +1773,5 @@
     "path": "work/render_agent_figures.py",
     "bytes": 4844,
     "sha256": "65e72c20d12366850cf47420ba6579e821071f4dcb6829fc2409a1f99b494975"
-  },
-  {
-    "path": "work/update_swarm_latex.py",
-    "bytes": 9025,
-    "sha256": "dec81aa406eae0e3b9db9b06df640ac1ba063ed67d8034f7d9821a3151df8807"
   }
 ]

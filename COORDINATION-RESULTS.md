@@ -39,7 +39,7 @@ audit.json verifies 30 new distinct assignments per arm, no cached proposal eval
 
 This study uses one supplied loading case and one exploratory run. The specialists had prior conversational familiarity; both methods were given the same historical trial ledger. Numerical selection is a fixed policy, while specialist reasoning adapts. FEM counts are matched, but agent latency and token cost are not controlled. The comparison supports this hybrid versus this numerical policy on this case; it does not establish universal LLM superiority or isolate coordination causally from every policy difference. A matched 30-evaluation uncoordinated swarm control was not run.
 
-Connectivity, material fraction, and interface costs are reported, not imposed as additional constraints. This remains the supplied linear ersatz-material model; mesh, loading generalization, and fabrication validation are outside this experiment. The manuscript source has not been revised to claim these results.
+Connectivity, material fraction, and interface costs are reported, not imposed as additional constraints. This remains the supplied linear ersatz-material model; mesh, loading generalization, and fabrication validation are outside this experiment.
 
 ## Files
 
