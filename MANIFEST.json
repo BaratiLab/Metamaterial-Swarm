@@ -1,0 +1,1047 @@
+[
+  {
+    "path": "outputs/agent-figures/agent-swarm.png",
+    "bytes": 381332,
+    "sha256": "dd4001c77144ee7fcd3e6ff341d08b1cb498aebaf5e86e7dd1b4ece5da636fda"
+  },
+  {
+    "path": "outputs/agent-figures/agent-swarm.svg",
+    "bytes": 97707,
+    "sha256": "43b18a8712c3171c5b879fc482d0d75f8ecad2f9be9a635d5a4c319654b7de40"
+  },
+  {
+    "path": "outputs/agent-figures/overall-concept.png",
+    "bytes": 359610,
+    "sha256": "e562b31f261425a1961cb04f78855d0ed8bfefdf1febe58471d9429678e43e20"
+  },
+  {
+    "path": "outputs/agent-figures/overall-concept.svg",
+    "bytes": 98917,
+    "sha256": "9610dd3df6e3004dd78ddde0897469947708a69165da59cccdceb9d9fdc28d22"
+  },
+  {
+    "path": "outputs/agent-figures/overleaf-concept-proof.png",
+    "bytes": 687094,
+    "sha256": "e934bb7700ef25557fd242f66c62089d4e2d7140fce41f3d4f9aca92fdf24f7d"
+  },
+  {
+    "path": "outputs/agent-figures/overleaf-pictorial-concept.png",
+    "bytes": 626701,
+    "sha256": "978ffc05fb55f6363d7d6fda93eda52673fbfe3cb3db406b50e243d6d113762f"
+  },
+  {
+    "path": "outputs/agent-figures/overleaf-robot-swarm.png",
+    "bytes": 648205,
+    "sha256": "3b88f16715f496a51540ad58f85e2a2130da7789a5dcb178c7d318e93ac12bf0"
+  },
+  {
+    "path": "outputs/agent-figures/overleaf-swarm-proof.png",
+    "bytes": 572058,
+    "sha256": "5824461aaac0e17293ba6a0d9dabf6dbe164ef0804ee5d877fae9ea0d2268847"
+  },
+  {
+    "path": "outputs/cloak-experiment/REPRODUCE.txt",
+    "bytes": 3746,
+    "sha256": "ea991d953d3506ddd32c7ca5edcbc1f8a5defd74aa67d69e4ac88f13ab04f2ed"
+  },
+  {
+    "path": "outputs/cloak-experiment/RESULTS.txt",
+    "bytes": 7867,
+    "sha256": "e83c42bc63e7cedd13a198d9ea1c69797c489c3fc20ae3bb2d4e95787f317098"
+  },
+  {
+    "path": "outputs/cloak-experiment/adaptive_selector.py",
+    "bytes": 9447,
+    "sha256": "af229cd97128825d157e677595ab5ddeb9c342576bd4edfe0f66a4a70c292034"
+  },
+  {
+    "path": "outputs/cloak-experiment/baseline_labels.npy",
+    "bytes": 2832,
+    "sha256": "5ad958189d7fb803b7e1909cb50f2480f5cdeeb749b6e84a7f84f4cc2ac8c4ed"
+  },
+  {
+    "path": "outputs/cloak-experiment/benchmark.py",
+    "bytes": 21680,
+    "sha256": "68a18b5997bf899129d79561832156b0861a0c23c263dca5a7d1245bfb584015"
+  },
+  {
+    "path": "outputs/cloak-experiment/check_balance.py",
+    "bytes": 1947,
+    "sha256": "d4513f114b6ea7f5813b3fdbe6c734e94165f2b1c997139b386263373e1b00d0"
+  },
+  {
+    "path": "outputs/cloak-experiment/cloak_adapter.py",
+    "bytes": 7989,
+    "sha256": "ca7997b2817e1b53597f494cb0702604e9a1a3675a577ba378ac01a771c69fde"
+  },
+  {
+    "path": "outputs/cloak-experiment/comparison.png",
+    "bytes": 174645,
+    "sha256": "196ddab4a84d1b925f5f84282ff1eaeb6e87abd014231993912dd57fc25af3df"
+  },
+  {
+    "path": "outputs/cloak-experiment/comparison.svg",
+    "bytes": 76363,
+    "sha256": "6662cf6551708a379b8c88afee39a4f5c3176cacc8c405ef727f037a74b8bc4b"
+  },
+  {
+    "path": "outputs/cloak-experiment/experiment.py",
+    "bytes": 8442,
+    "sha256": "1f8943af1a60b8c8f7f5424099bb7576fd208aca35e79152ee7d20a3345ec826"
+  },
+  {
+    "path": "outputs/cloak-experiment/fem_solver.py",
+    "bytes": 8749,
+    "sha256": "a1dc0fdb6faef8678bf55610a1b21de7009c27cef50a19dd2dd31ed2fe14c986"
+  },
+  {
+    "path": "outputs/cloak-experiment/force_balance.json",
+    "bytes": 702,
+    "sha256": "18dabe5b5c396204088be92a9463054ea9bd0a75490bd99009030b09b4e04e0f"
+  },
+  {
+    "path": "outputs/cloak-experiment/macro_feedback.py",
+    "bytes": 2808,
+    "sha256": "3f3d244a319fa4e3d04890ac2c0d9b5e52155ff8dc3ecf0679aaea2d9ff4d70f"
+  },
+  {
+    "path": "outputs/cloak-experiment/manifest.json",
+    "bytes": 6578,
+    "sha256": "eb063bba3d73f5fdbf0cd5112b3a303f39de916bbad1a032e0ade0dc53e45f2b"
+  },
+  {
+    "path": "outputs/cloak-experiment/numerical/round1/commitment.json",
+    "bytes": 227,
+    "sha256": "ad90f4be4a4cbcd281a0a9197ba3d4afdcb997144b16db73cf3624108dd8d836"
+  },
+  {
+    "path": "outputs/cloak-experiment/numerical/round1/feedback.json",
+    "bytes": 833113,
+    "sha256": "7a3e576a034be1a23c077279549e22ef83bdfbae107bf333556ce98c8e814c1f"
+  },
+  {
+    "path": "outputs/cloak-experiment/numerical/round1/partial_results.json",
+    "bytes": 15566,
+    "sha256": "771dc469c743ad02c7c54d38056507c3ad5dab2c27b29e14c6f48a1b3c20448a"
+  },
+  {
+    "path": "outputs/cloak-experiment/numerical/round1/proposals.json",
+    "bytes": 1430,
+    "sha256": "79ee4b534fb72a8a47162ef6a761349955fb2dbb62feea56ae230914f0101555"
+  },
+  {
+    "path": "outputs/cloak-experiment/numerical/round1/results.json",
+    "bytes": 15566,
+    "sha256": "771dc469c743ad02c7c54d38056507c3ad5dab2c27b29e14c6f48a1b3c20448a"
+  },
+  {
+    "path": "outputs/cloak-experiment/numerical/round2/commitment.json",
+    "bytes": 228,
+    "sha256": "c8a62297013914105e8aaecf8c53fa0267c48c4bdeb310c647d44045b641b20c"
+  },
+  {
+    "path": "outputs/cloak-experiment/numerical/round2/feedback.json",
+    "bytes": 851223,
+    "sha256": "b735dcfb8fd9d1c6053232f4ce8928291976f19048d6e3dce47ae27d1e0122fe"
+  },
+  {
+    "path": "outputs/cloak-experiment/numerical/round2/partial_results.json",
+    "bytes": 15217,
+    "sha256": "bf0dc3b3bee620412efbc94f495210e39f95ff4471a945c4c81fb233ec1b056d"
+  },
+  {
+    "path": "outputs/cloak-experiment/numerical/round2/proposals.json",
+    "bytes": 1092,
+    "sha256": "354cbebf3ed485d2814501bfc02236448d3a11147737aea86d5d9165bb0dbdcc"
+  },
+  {
+    "path": "outputs/cloak-experiment/numerical/round2/results.json",
+    "bytes": 15217,
+    "sha256": "bf0dc3b3bee620412efbc94f495210e39f95ff4471a945c4c81fb233ec1b056d"
+  },
+  {
+    "path": "outputs/cloak-experiment/numerical/round3/commitment.json",
+    "bytes": 225,
+    "sha256": "2cfc3b95ca6d1a9bef1fec624ddef06763e713ebb64a25f69ae563cb66fcecae"
+  },
+  {
+    "path": "outputs/cloak-experiment/numerical/round3/feedback.json",
+    "bytes": 868946,
+    "sha256": "943d13c55a98d62affcf188adf322c70d955fdbb87e81be61f8b657a289e27bb"
+  },
+  {
+    "path": "outputs/cloak-experiment/numerical/round3/partial_results.json",
+    "bytes": 15541,
+    "sha256": "1154fc70b036511351dee018d8b1d3e01c0d4215e8c3b58cdb5ea72b939793d4"
+  },
+  {
+    "path": "outputs/cloak-experiment/numerical/round3/proposals.json",
+    "bytes": 1428,
+    "sha256": "906065d40f757d233a548e61cc5b8518a085ab123b6525a1c186fb12dba6d958"
+  },
+  {
+    "path": "outputs/cloak-experiment/numerical/round3/results.json",
+    "bytes": 15541,
+    "sha256": "1154fc70b036511351dee018d8b1d3e01c0d4215e8c3b58cdb5ea72b939793d4"
+  },
+  {
+    "path": "outputs/cloak-experiment/numerical/state.json",
+    "bytes": 126941,
+    "sha256": "11e2daa897829fd055617568e41d58d5d15f3ad833798acaeac0fb28bc48bebe"
+  },
+  {
+    "path": "outputs/cloak-experiment/numerical_policy_replay.json",
+    "bytes": 357,
+    "sha256": "12a1285721ce9cc5f962b1f731e6359840b7d9a14345dac415185cbd0f67feee"
+  },
+  {
+    "path": "outputs/cloak-experiment/numerical_retained_labels.mat",
+    "bytes": 2896,
+    "sha256": "81d004512724e3ca79329e9513bb05d3c67c592b739c33194dbe3df45d041109"
+  },
+  {
+    "path": "outputs/cloak-experiment/outside_error_fields.png",
+    "bytes": 681248,
+    "sha256": "45d4c455a47ce640dc63e21f6dcee6b4080b3aa60ddcf681968566774705929a"
+  },
+  {
+    "path": "outputs/cloak-experiment/plot_error_fields.py",
+    "bytes": 1833,
+    "sha256": "6c953137e19c170f30c5bd99cfe3918efb27928c8eb778fc8451bf2af1b854bf"
+  },
+  {
+    "path": "outputs/cloak-experiment/protocol.json",
+    "bytes": 1981,
+    "sha256": "9eb89791c1b6d815b94171cc62a934133cfc51adaa636d48b3646f7e1eb000d0"
+  },
+  {
+    "path": "outputs/cloak-experiment/reference_check.json",
+    "bytes": 1919,
+    "sha256": "4586d44335c56601dba089989257d34b35705f12367afdfe1f5a2503de7196dd"
+  },
+  {
+    "path": "outputs/cloak-experiment/replay_actions.py",
+    "bytes": 1683,
+    "sha256": "34d0a8c1986ac9b27703594323e7af26dd394164287701b585d75182d2db38d2"
+  },
+  {
+    "path": "outputs/cloak-experiment/requirements.txt",
+    "bytes": 71,
+    "sha256": "626813ef05a3d2208fbe44eb776d35a5fbb98aede1d92426f6456abf9c5a395e"
+  },
+  {
+    "path": "outputs/cloak-experiment/retained_assemblies.png",
+    "bytes": 150269,
+    "sha256": "79bd9bb94f2bef227f49c22ba21e349271098a57fe6989675ffecf8f827e4583"
+  },
+  {
+    "path": "outputs/cloak-experiment/runtime.json",
+    "bytes": 275,
+    "sha256": "89d7aac0dde6fb9adf0993c3b26a87984635534523e6442a22bf253f54478d2d"
+  },
+  {
+    "path": "outputs/cloak-experiment/source_manifest.json",
+    "bytes": 2137,
+    "sha256": "61817ecc6af1d1735fc302a4bd55bbdbdc293dff6efe66ed64a17d8f6cf72c62"
+  },
+  {
+    "path": "outputs/cloak-experiment/summarize.py",
+    "bytes": 3588,
+    "sha256": "3eaa609ef69e26017ea3cc4dd873a554a4517d18eb0a458cca3297a9593c41be"
+  },
+  {
+    "path": "outputs/cloak-experiment/summary.json",
+    "bytes": 564,
+    "sha256": "258a6cd17be679a73f54af153bbdb83b6ab57c24096429bcada095350659a6c9"
+  },
+  {
+    "path": "outputs/cloak-experiment/supplied_assignment_result.json",
+    "bytes": 1090,
+    "sha256": "c9fbac9fd8f4055d7ac25293bd453feea02e81e0ccd8d0f9823e6e0127f3ae29"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm/round1/cautious.json",
+    "bytes": 764,
+    "sha256": "a91fe08a693d511a72e12d1a72be6d2807067a347f16fcad66e67ce730e0fb57"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm/round1/commitment.json",
+    "bytes": 227,
+    "sha256": "f07157ad79fa734298750080f9f0965a3488cce772b1e09ec72244087e1e43dc"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm/round1/feedback.json",
+    "bytes": 833109,
+    "sha256": "3d042929320711f26d8f3b1e365d2a8d159f6958ab01ac030ffa2c1b808716c6"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm/round1/interfaces.json",
+    "bytes": 1033,
+    "sha256": "4e58f22c0aef97b13b9e48c99c4cd9174e6ed36404b887ee73aec8648acf89e3"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm/round1/partial_results.json",
+    "bytes": 16850,
+    "sha256": "21f7e7a7264207095487f20df95b684b96d64fea8f0d9655d5fad81267208263"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm/round1/proposals.json",
+    "bytes": 2732,
+    "sha256": "6de47632ec68be4eaa4bc9ebbdeb315c08bce88677e06c70f71134ef11f0ffd5"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm/round1/response.json",
+    "bytes": 812,
+    "sha256": "c24ae215abd255f54a29aaa6bf32510c91e24d0e63329df226bf31073f5f068d"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm/round1/results.json",
+    "bytes": 16850,
+    "sha256": "21f7e7a7264207095487f20df95b684b96d64fea8f0d9655d5fad81267208263"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm/round2/cautious.json",
+    "bytes": 768,
+    "sha256": "c2845ce50ecf04379e2ca45f28d048b865d61afe905f9e674c75abb507cbb6b6"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm/round2/commitment.json",
+    "bytes": 227,
+    "sha256": "526829aaeef9ef4382178ea9a3de7471a6d5019b61c5d032f38af688ba30ba30"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm/round2/feedback.json",
+    "bytes": 852511,
+    "sha256": "79d4f6b2d0bce721e3eeff24239304139332caa6704ff7b988c5efb66b3a2978"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm/round2/interfaces.json",
+    "bytes": 823,
+    "sha256": "e0a610c2aeef2f833e2d0243787fcfc46cc803f3cc273529fcd44d5286e7d1ca"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm/round2/partial_results.json",
+    "bytes": 16607,
+    "sha256": "9faed1e1adc4a38fc42912fdfdf0fcf53bfc70945e195c16397025fa1f68ca96"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm/round2/proposals.json",
+    "bytes": 2499,
+    "sha256": "5a16c6505db1d5b00ed1c3035591b09811382e55463cc4138c2bb9cc19662122"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm/round2/response.json",
+    "bytes": 817,
+    "sha256": "21df457c017026b4c03cdd9ca9d1c062eaab22242b3836df65aca98d4ff96dc7"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm/round2/results.json",
+    "bytes": 16607,
+    "sha256": "9faed1e1adc4a38fc42912fdfdf0fcf53bfc70945e195c16397025fa1f68ca96"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm/round3/cautious.json",
+    "bytes": 714,
+    "sha256": "cd55b5d925abd6e3c9d56f9628d88ed9b1c28104b3f82c6fdbedcb1477fd5726"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm/round3/commitment.json",
+    "bytes": 226,
+    "sha256": "9c2585d0237a7b54761569ff5f4c4aef760a5749af3d9e949f307b862ea67549"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm/round3/feedback.json",
+    "bytes": 871586,
+    "sha256": "94ecb2d3b6c450ee914d6ffa3b87fef5f35e471d631b9d31132dedd1f9781ca6"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm/round3/interfaces.json",
+    "bytes": 869,
+    "sha256": "2ece7022e037b27376eb2361897be5def6dc33aa76fec790ba645c302e9eb9c2"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm/round3/partial_results.json",
+    "bytes": 16780,
+    "sha256": "e676933efb697d0d6a0d353772b0ef93f5c4ac071dc0f482792067d477c1bc56"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm/round3/proposals.json",
+    "bytes": 2672,
+    "sha256": "4a965fe0bdb02f1aa6983753d7a33622340728b6763baaeaafd3d9c1afa8b90a"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm/round3/response.json",
+    "bytes": 982,
+    "sha256": "858cdf6658ecd2c6281c9beb664be23d088291c3130db85947b300b052606d4c"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm/round3/results.json",
+    "bytes": 16780,
+    "sha256": "e676933efb697d0d6a0d353772b0ef93f5c4ac071dc0f482792067d477c1bc56"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm/state.json",
+    "bytes": 134858,
+    "sha256": "5cccc5cff97443bbacebaab6af00fd50c9bd11d0d330cacb3599500edcd9ae71"
+  },
+  {
+    "path": "outputs/cloak-experiment/swarm_retained_labels.mat",
+    "bytes": 2896,
+    "sha256": "5fb03763e9835fabd2e05da3abeddbeda7c54da12e320a4dba2af3433f7e4615"
+  },
+  {
+    "path": "outputs/cloak-experiment/trials.csv",
+    "bytes": 4250,
+    "sha256": "9ff66215dc9db502013c1eb0082dd712edbb59eb3d03d1391bcb920ef029341e"
+  },
+  {
+    "path": "outputs/cloak-experiment/validation.json",
+    "bytes": 343,
+    "sha256": "eeb219b140df50d971b2e1fed8f99b64e2a27cca0a54372a052e0ca0205866a5"
+  },
+  {
+    "path": "outputs/cloak-review/ASSESSMENT.txt",
+    "bytes": 9463,
+    "sha256": "e642c0968ecca3b5026808dd8721d8af767f3d6f7d75a75cce2935ae9b55b024"
+  },
+  {
+    "path": "outputs/cloak-review/RUN.txt",
+    "bytes": 1012,
+    "sha256": "7f3d095d7bc5e6e16631e76254472c0c2b132518e8b09ffaa896cb7cbfe4287b"
+  },
+  {
+    "path": "outputs/cloak-review/cloak_adapter.py",
+    "bytes": 7989,
+    "sha256": "ca7997b2817e1b53597f494cb0702604e9a1a3675a577ba378ac01a771c69fde"
+  },
+  {
+    "path": "outputs/cloak-review/inspection/audit.json",
+    "bytes": 893,
+    "sha256": "68a1bf626da8491698c45c1fcc087efa710ed250b6619da7b884cd5dd51ecff4"
+  },
+  {
+    "path": "outputs/cloak-review/inspection/candidate_features.json",
+    "bytes": 930158,
+    "sha256": "3f13a8744a491db238d2bd8068e62ba0c5383852d87ec5432812ae862ef7882b"
+  },
+  {
+    "path": "outputs/cloak-review/inspection/library_comparison.json",
+    "bytes": 138,
+    "sha256": "9ff52d14827dd6eb2540464f6197cc71d107b4bfa8f8830da8b9e0caa5c25cb1"
+  },
+  {
+    "path": "outputs/cloak-review/inspection/property_prior_labels.mat",
+    "bytes": 2896,
+    "sha256": "a2af60cec1863d183f17d4cb58173e359fce67307ddf7185339b9cee000ca4c2"
+  },
+  {
+    "path": "outputs/cloak-review/matlab/run_cloak_checked.m",
+    "bytes": 2780,
+    "sha256": "6a3cf3319bd8a649b51d03e6ab9168cf304d70720589be2b5cd2f7e35d9576cb"
+  },
+  {
+    "path": "outputs/cloak-review/package-inspection.png",
+    "bytes": 200540,
+    "sha256": "c176cf47b5c02225583c6b0832f132f432b9ecf7498fd7814efcd14c76ba2ab6"
+  },
+  {
+    "path": "outputs/cloak-review/package-inspection.svg",
+    "bytes": 92879,
+    "sha256": "a556477bb307ad3721f85167785829b7d0de06d3727979c49f8a885a9d031ad5"
+  },
+  {
+    "path": "outputs/cloak-review/source_manifest.json",
+    "bytes": 2137,
+    "sha256": "61817ecc6af1d1735fc302a4bd55bbdbdc293dff6efe66ed64a17d8f6cf72c62"
+  },
+  {
+    "path": "outputs/metamaterial-selector/README.md",
+    "bytes": 7803,
+    "sha256": "7d267149c88f16e9e494aaecc45ea065a25c032d73256b173c3525c7f9e45a00"
+  },
+  {
+    "path": "outputs/metamaterial-selector/RESULTS.md",
+    "bytes": 5349,
+    "sha256": "73392622eaad4a72867893581c1c8b858b8afd57cc8c29f662296b1bbe3d9ebd"
+  },
+  {
+    "path": "outputs/metamaterial-selector/assemblies.png",
+    "bytes": 269027,
+    "sha256": "10622d58b218fe75e0ff3fb8de0c4bd579608673a00b995473a3d0673e75fb97"
+  },
+  {
+    "path": "outputs/metamaterial-selector/benchmark.py",
+    "bytes": 21680,
+    "sha256": "68a18b5997bf899129d79561832156b0861a0c23c263dca5a7d1245bfb584015"
+  },
+  {
+    "path": "outputs/metamaterial-selector/check_void.py",
+    "bytes": 1173,
+    "sha256": "39c0a0fd6141888e0d3e1ca2b45ffc9bcd11fdaa8c46ab5eef97bd80cc5bd4ce"
+  },
+  {
+    "path": "outputs/metamaterial-selector/comparison.png",
+    "bytes": 311361,
+    "sha256": "09ba54dd968aed79bf81f4481267d9e4be7ec09c117eb6a09d14a26d1fde501b"
+  },
+  {
+    "path": "outputs/metamaterial-selector/data/Geometries.mat",
+    "bytes": 3941004,
+    "sha256": "ba9f0cb2a08ee580df71c69bf456878cf2ad2bce6f46432f1390129411498efb"
+  },
+  {
+    "path": "outputs/metamaterial-selector/data/Properties.mat",
+    "bytes": 2947683,
+    "sha256": "704d663280ffcc3345d8a4fd6dabb1d030c378e6804e4bfa5a651264ec066d1d"
+  },
+  {
+    "path": "outputs/metamaterial-selector/data/provenance.json",
+    "bytes": 6712,
+    "sha256": "d1722f0772e3a0751785319e8dd2f1a85c0aa124fb407948d632057153d9c6f4"
+  },
+  {
+    "path": "outputs/metamaterial-selector/data/read_me.txt",
+    "bytes": 1371,
+    "sha256": "6176692f85fd0de04db7eef588316ed4f40beb058153a96b676f650086fa22e6"
+  },
+  {
+    "path": "outputs/metamaterial-selector/deterministic_adjoint_top8_labels.json",
+    "bytes": 602,
+    "sha256": "fd7b8cf434817a38c4bda55b1d4fd4fd66c5a62a2674f512e85247f0b24bd34c"
+  },
+  {
+    "path": "outputs/metamaterial-selector/deterministic_adjoint_trust_region_labels.json",
+    "bytes": 602,
+    "sha256": "141374c3aa71c9c3d5757eca3c100a5f313bebdcd7921c04264d72b8ce123763"
+  },
+  {
+    "path": "outputs/metamaterial-selector/feedback.json",
+    "bytes": 482974,
+    "sha256": "40ba15028c07d062b2b9f7ae216ddd843fb65a3967026237b4879e8d4ce206f2"
+  },
+  {
+    "path": "outputs/metamaterial-selector/graph_multistart_icm_labels.json",
+    "bytes": 602,
+    "sha256": "60f18d7e79d256b93306b4bcc5053e1ce9cb98498bf5eeff300549be2eb05533"
+  },
+  {
+    "path": "outputs/metamaterial-selector/llm_actions.json",
+    "bytes": 1858,
+    "sha256": "9dbcc0855061bba94bbb91bda648fca65c4d84c52eac9a45da75f61f8410dd03"
+  },
+  {
+    "path": "outputs/metamaterial-selector/llm_feedback_batch_labels.json",
+    "bytes": 602,
+    "sha256": "e28da39809345ebc4e171c2d4f2d482a09187a81e0945d4aadd964e7fce9010e"
+  },
+  {
+    "path": "outputs/metamaterial-selector/metrics.csv",
+    "bytes": 1135,
+    "sha256": "177c42093af194ed9c18128ef9164d7338d2eac1f1c646e6ffc77d384c2d520e"
+  },
+  {
+    "path": "outputs/metamaterial-selector/nearest_property_labels.json",
+    "bytes": 602,
+    "sha256": "a66cc2c6b4f7e565e5d38aaefcf915999b712b914e6e1707379ac6babc0c6d90"
+  },
+  {
+    "path": "outputs/metamaterial-selector/numerical_actions.json",
+    "bytes": 475,
+    "sha256": "b78d2afccabf98ab125ce4819ebe251fc5aa5814ec9406b07986f859c612c44e"
+  },
+  {
+    "path": "outputs/metamaterial-selector/problem.npz",
+    "bytes": 154332,
+    "sha256": "d720a308a497f70c18721e3da0cece37cf09f06c49c08290c3bbe5bb219e51d4"
+  },
+  {
+    "path": "outputs/metamaterial-selector/problem_metadata.json",
+    "bytes": 266,
+    "sha256": "b784f389ea21f6990ec8d757ee69ea26be0dc88b83a8b68403de3d9c8e5b00fa"
+  },
+  {
+    "path": "outputs/metamaterial-selector/requirements.txt",
+    "bytes": 40,
+    "sha256": "b4d4671879d33d90228042687b851af90add9dc1d9433d2a161ac674b52c7dfb"
+  },
+  {
+    "path": "outputs/metamaterial-selector/results.json",
+    "bytes": 19960,
+    "sha256": "61c2370ce029c54eca38ffe74baea24a8150710e26168c50c1f5905162da56d1"
+  },
+  {
+    "path": "outputs/metamaterial-selector/run_manifest.json",
+    "bytes": 547,
+    "sha256": "30b931f11263ca84e383126ef64f9cb917b79a5235fa7b707e6a31083f833eb9"
+  },
+  {
+    "path": "outputs/metamaterial-selector/run_swarm_rounds.py",
+    "bytes": 565,
+    "sha256": "d526a15dec1cc9f36dfb5c05f4f2387f20aa0d769765145e71c2bfb64e875ea0"
+  },
+  {
+    "path": "outputs/metamaterial-selector/summarize_swarm.py",
+    "bytes": 7458,
+    "sha256": "c4bb36f3a2b1e614f74b9b0ba778022dcf631b178498c21fa136533d686d47a5"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/RESULTS.md",
+    "bytes": 4350,
+    "sha256": "88d10eeee62e27459c455fd56a91582ea49a5d8b4eaca0f05c39937745c43c84"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/final_void_validation.json",
+    "bytes": 351,
+    "sha256": "f160e9c084417921d0386c3485bddc85c24aea893bad6a7eb43b72dfde9aea4a"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/history.json",
+    "bytes": 5893,
+    "sha256": "88fef8c16aea323eb88afcd439d24dae674a93d0f480bff5ec6cfffa43fb5baa"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/incumbent_labels.json",
+    "bytes": 602,
+    "sha256": "bfc88483e4ee43591c62b5fac248ea22234d342f668fcc72b56229a22c147735"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round1/agent_interfaces.json",
+    "bytes": 857,
+    "sha256": "c480ad84b75776ea6dd757d602981aaf4f75ffe7c419bbbe545e685282c80102"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round1/agent_interfaces_labels.json",
+    "bytes": 602,
+    "sha256": "98d2a4eb2eb0ec56df15e099bb0521d54a6cd45f15a08c987a77b30f7970f776"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round1/agent_response.json",
+    "bytes": 800,
+    "sha256": "e5cbf6ebfe8ebd5c5bfd83ab0bd706a34827255b1c6eafc0e884ce8263b8f3bb"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round1/agent_response_labels.json",
+    "bytes": 602,
+    "sha256": "74c8c4a1472f2572d2194e161df5039159b0eee8302697879d94e2b2fba3b4a0"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round1/agent_robust.json",
+    "bytes": 628,
+    "sha256": "f9febf1b6b1f44f99bb211bd784553eaa2574f6f325620385e5dc6b54e03247b"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round1/agent_robust_labels.json",
+    "bytes": 602,
+    "sha256": "98814f8af78f5ae01a437a5daa3dd280eb5547bba8c134314dc8289ade3aef1c"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round1/commitment_manifest.json",
+    "bytes": 740,
+    "sha256": "71c74419fc6a4274257581955349c12c5c343c37959d4db3c87839ccd4d404de"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round1/feedback.json",
+    "bytes": 2577462,
+    "sha256": "a4b7ce0f9da8a80947b5aafeb7afb3fd8fe7ac73e98425efe366df82b720eb45"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round1/incumbent_labels.json",
+    "bytes": 602,
+    "sha256": "fd7b8cf434817a38c4bda55b1d4fd4fd66c5a62a2674f512e85247f0b24bd34c"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round1/numerical1.json",
+    "bytes": 276,
+    "sha256": "189381d98fa51ee37629c63f74aee39beb82459475781e59f0e5a5bcae6fb92b"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round1/numerical4.json",
+    "bytes": 429,
+    "sha256": "83f6b327889c4c51873fceaaeae4f6a3e81d22c47d5e4dd59f121893008c7d1c"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round1/numerical8.json",
+    "bytes": 632,
+    "sha256": "2fd5b94d1f17bc3d50c8fb5c0ee204bc4ca6bbcf2a9e8cfd0562d0e88e06f6bf"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round1/numerical_greedy1_labels.json",
+    "bytes": 602,
+    "sha256": "a09eca4b2a63dd04c54ee22f016d99958e9b867ded48d5aa1bf4c37f8ccfccef"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round1/numerical_greedy4_labels.json",
+    "bytes": 602,
+    "sha256": "7959edeee997c4de1ff34a58a4b1f6e78990ff7a7e8d8a74f9aa139ed86777f5"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round1/numerical_greedy8_labels.json",
+    "bytes": 602,
+    "sha256": "e7907153c1f08a15e8d5aea9c740ae12e1388bd05a6e910be7f0f29b7d969447"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round1/partial_results.json",
+    "bytes": 24690,
+    "sha256": "c6e70db71fc2bdb9090c0812bc8c52588b35f83cfb19a829bc9b38fec2539b4e"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round1/results.json",
+    "bytes": 24690,
+    "sha256": "c6e70db71fc2bdb9090c0812bc8c52588b35f83cfb19a829bc9b38fec2539b4e"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round2/agent_interfaces.json",
+    "bytes": 839,
+    "sha256": "616ec8fe688155c4752ef3282295220c771bc962da3e9c9e844bf5b30378a23b"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round2/agent_interfaces_labels.json",
+    "bytes": 602,
+    "sha256": "8ed25aa3c7e1a35a6c0c79350f83adab7f42d3f1002b11f7d7ba806551115e03"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round2/agent_response.json",
+    "bytes": 614,
+    "sha256": "a6a10e8fa9064f02bc2dae3ba8d1b4dd71c2a73000e7e151b4d8be9421a9ccdc"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round2/agent_response_labels.json",
+    "bytes": 602,
+    "sha256": "da7ecd9793f0647daf9f07bb5675510c62980d8a327c9adcd897e4cd6fea2c2b"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round2/agent_robust.json",
+    "bytes": 778,
+    "sha256": "3f0b4b66b483e9aff8267db90d6db13225d8ed3da47c8239594470688dbdbe41"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round2/agent_robust_labels.json",
+    "bytes": 602,
+    "sha256": "99eb35057587b7593868cc46dfc7fb9ffcc8222d368c308f7db765e64c056ab8"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round2/commitment_manifest.json",
+    "bytes": 740,
+    "sha256": "a4872403e4bc482c2d448dd7399e3f0786fdb7634158520ce57e7b363e7f2439"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round2/feedback.json",
+    "bytes": 2577892,
+    "sha256": "8d9e3d32cd164e857fdbd01a9d4c1b5cb794419825203f0cd25cdfe9e6078755"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round2/incumbent_labels.json",
+    "bytes": 602,
+    "sha256": "98d2a4eb2eb0ec56df15e099bb0521d54a6cd45f15a08c987a77b30f7970f776"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round2/numerical1.json",
+    "bytes": 275,
+    "sha256": "99648de21f06e90a0864cb94af0f136ba031e69cb74e9aee76c824f96587e88a"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round2/numerical4.json",
+    "bytes": 429,
+    "sha256": "e700bf8f2b7183a805dd247dc72efd5fb1837b8529f6eac3d077723f0a1fb6f8"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round2/numerical8.json",
+    "bytes": 632,
+    "sha256": "a696fed7060b62a50d5b02a4e0f13c1e6fc783a442ce1bd3ca43bcc0ed013363"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round2/numerical_greedy1_labels.json",
+    "bytes": 602,
+    "sha256": "6ee30ae9c747d4dd464ed791479b5e6ec38d35eba678ceef109ce77f7905f02f"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round2/numerical_greedy4_labels.json",
+    "bytes": 602,
+    "sha256": "32db72cad7ccf369917bdf01548735d09a1676070cb9009597a515c208ee1e00"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round2/numerical_greedy8_labels.json",
+    "bytes": 602,
+    "sha256": "c04c6d40b868cfdbf6c44e40ec01a73a09f5ab4f2a4ad38e5892dc3bf902544f"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round2/partial_results.json",
+    "bytes": 24700,
+    "sha256": "918d56b792342152d589284a7da926478a353769491e283bbe5467e1a7f7180a"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round2/results.json",
+    "bytes": 24700,
+    "sha256": "918d56b792342152d589284a7da926478a353769491e283bbe5467e1a7f7180a"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round3/agent_interfaces.json",
+    "bytes": 852,
+    "sha256": "7618d16b4c3d28126dfdb4fca20f6bd10190bfc8919e231073582816c68d8c2f"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round3/agent_interfaces_labels.json",
+    "bytes": 602,
+    "sha256": "bfc88483e4ee43591c62b5fac248ea22234d342f668fcc72b56229a22c147735"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round3/agent_response.json",
+    "bytes": 784,
+    "sha256": "c08b1327d0c92baa690d18473e18c4ed70072f73840daded3863451407e5e021"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round3/agent_response_labels.json",
+    "bytes": 602,
+    "sha256": "62e49452412d769d975f0fceea1bce4502bf2e14d4d2356f4a7473c80a35b4b6"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round3/agent_robust.json",
+    "bytes": 788,
+    "sha256": "dce810f1e300f287e7c9c8e2d4de327314174188be0843c0f8a958f793f66507"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round3/agent_robust_labels.json",
+    "bytes": 602,
+    "sha256": "ea6353252c02137d0638b38b839aeb3ba62703ffa459af21267e1095b37d7076"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round3/commitment_manifest.json",
+    "bytes": 740,
+    "sha256": "dd96a8fa7659b283178aa86989f1fc0f12c26f6769c638121bfede340f15f3fa"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round3/feedback.json",
+    "bytes": 2577893,
+    "sha256": "1e0c5091fbf6a01d5595678ea33e5c0afdbd9a05276c4b1fc8097e572f758b11"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round3/incumbent_labels.json",
+    "bytes": 602,
+    "sha256": "98d2a4eb2eb0ec56df15e099bb0521d54a6cd45f15a08c987a77b30f7970f776"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round3/numerical1.json",
+    "bytes": 275,
+    "sha256": "99648de21f06e90a0864cb94af0f136ba031e69cb74e9aee76c824f96587e88a"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round3/numerical4.json",
+    "bytes": 429,
+    "sha256": "e700bf8f2b7183a805dd247dc72efd5fb1837b8529f6eac3d077723f0a1fb6f8"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round3/numerical8.json",
+    "bytes": 632,
+    "sha256": "a696fed7060b62a50d5b02a4e0f13c1e6fc783a442ce1bd3ca43bcc0ed013363"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round3/numerical_greedy1_labels.json",
+    "bytes": 602,
+    "sha256": "6ee30ae9c747d4dd464ed791479b5e6ec38d35eba678ceef109ce77f7905f02f"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round3/numerical_greedy4_labels.json",
+    "bytes": 602,
+    "sha256": "32db72cad7ccf369917bdf01548735d09a1676070cb9009597a515c208ee1e00"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round3/numerical_greedy8_labels.json",
+    "bytes": 602,
+    "sha256": "c04c6d40b868cfdbf6c44e40ec01a73a09f5ab4f2a4ad38e5892dc3bf902544f"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round3/partial_results.json",
+    "bytes": 24718,
+    "sha256": "a8ebb09ef535e5347325a07f8e04fb70ea1649a7bb430c944d025a868b7a3e7f"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/round3/results.json",
+    "bytes": 24718,
+    "sha256": "a8ebb09ef535e5347325a07f8e04fb70ea1649a7bb430c944d025a868b7a3e7f"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/swarm_comparison.png",
+    "bytes": 182441,
+    "sha256": "9d6898938fc4e6a124b701cb91e5e8a706713f4180ec3436282c12cca44e8ac1"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm/trial_metrics.csv",
+    "bytes": 3387,
+    "sha256": "096b159c5508018090504308f1a5f0ca15ec28320180d7082de10053c12431c1"
+  },
+  {
+    "path": "outputs/metamaterial-selector/swarm_benchmark.py",
+    "bytes": 11456,
+    "sha256": "2861e817e7a685c5979ccee59cb09a110e531ea26299e4878f539afb53033c31"
+  },
+  {
+    "path": "outputs/metamaterial-selector/trust_region.py",
+    "bytes": 1850,
+    "sha256": "e6d02fcebb8ef215f6d4591f14ac1d208b0a7d8035206715e07396ddab853237"
+  },
+  {
+    "path": "outputs/metamaterial-selector/trust_region_actions.json",
+    "bytes": 827,
+    "sha256": "182a10282977d6d385cbb367a03b738daf337e0123557f03dd3ebe1623351612"
+  },
+  {
+    "path": "outputs/metamaterial-selector/validation.json",
+    "bytes": 576,
+    "sha256": "b0acaac33e218181c1d96bd146fa3a69bd93e2c613077fad671ec9c0bce1f705"
+  },
+  {
+    "path": "outputs/metamaterial-selector/void_sensitivity.json",
+    "bytes": 933,
+    "sha256": "8d67e6e13f9c183c61e120ff40a7c6cdd5ab072f8b93dd459f994b59c9844ba3"
+  },
+  {
+    "path": "outputs/overleaf-metamaterial-selector/COMPILATION.txt",
+    "bytes": 130,
+    "sha256": "5deed6edb0b5499979ae189c40df66b0cf03e3c9d37b08cd1125238a2b105f1c"
+  },
+  {
+    "path": "outputs/overleaf-metamaterial-selector/UPLOAD.txt",
+    "bytes": 661,
+    "sha256": "dd97b361d5ac22f5dcc584029d14222eec82c1962a201e9afbcd4bfac0ceed62"
+  },
+  {
+    "path": "outputs/overleaf-metamaterial-selector/llm_actions.json",
+    "bytes": 1858,
+    "sha256": "9dbcc0855061bba94bbb91bda648fca65c4d84c52eac9a45da75f61f8410dd03"
+  },
+  {
+    "path": "outputs/overleaf-metamaterial-selector/main.tex",
+    "bytes": 63633,
+    "sha256": "23d04132495d5881708761e847727fa6b9f74a55ff1ec8815d94178073eefcd3"
+  },
+  {
+    "path": "outputs/overleaf-metamaterial-selector/metrics.csv",
+    "bytes": 1135,
+    "sha256": "177c42093af194ed9c18128ef9164d7338d2eac1f1c646e6ffc77d384c2d520e"
+  },
+  {
+    "path": "outputs/overleaf-metamaterial-selector/run_manifest.json",
+    "bytes": 547,
+    "sha256": "30b931f11263ca84e383126ef64f9cb917b79a5235fa7b707e6a31083f833eb9"
+  },
+  {
+    "path": "outputs/overleaf-metamaterial-selector/supplementary-comparison.png",
+    "bytes": 311361,
+    "sha256": "09ba54dd968aed79bf81f4481267d9e4be7ec09c117eb6a09d14a26d1fde501b"
+  },
+  {
+    "path": "outputs/overleaf-metamaterial-selector/swarm-comparison.png",
+    "bytes": 182441,
+    "sha256": "9d6898938fc4e6a124b701cb91e5e8a706713f4180ec3436282c12cca44e8ac1"
+  },
+  {
+    "path": "outputs/overleaf-metamaterial-selector/swarm-final-validation.json",
+    "bytes": 351,
+    "sha256": "f160e9c084417921d0386c3485bddc85c24aea893bad6a7eb43b72dfde9aea4a"
+  },
+  {
+    "path": "outputs/overleaf-metamaterial-selector/swarm-history.json",
+    "bytes": 5893,
+    "sha256": "88fef8c16aea323eb88afcd439d24dae674a93d0f480bff5ec6cfffa43fb5baa"
+  },
+  {
+    "path": "outputs/overleaf-metamaterial-selector/swarm-trial-metrics.csv",
+    "bytes": 3387,
+    "sha256": "096b159c5508018090504308f1a5f0ca15ec28320180d7082de10053c12431c1"
+  },
+  {
+    "path": "outputs/overleaf-metamaterial-selector/validation.json",
+    "bytes": 576,
+    "sha256": "b0acaac33e218181c1d96bd146fa3a69bd93e2c613077fad671ec9c0bce1f705"
+  },
+  {
+    "path": "outputs/overleaf-metamaterial-selector/void_sensitivity.json",
+    "bytes": 933,
+    "sha256": "8d67e6e13f9c183c61e120ff40a7c6cdd5ab072f8b93dd459f994b59c9844ba3"
+  },
+  {
+    "path": "work/add_agent_figures.py",
+    "bytes": 8300,
+    "sha256": "d1f11d6c425fba3f5e72c47c78a68aa8c0a2c774ec00f43594f6633eff73afb0"
+  },
+  {
+    "path": "work/build_latex_report.py",
+    "bytes": 20417,
+    "sha256": "0a7f4158c1c75ec7e74e8001b95eae6810dde7231b77365d2ecb0f5230211fab"
+  },
+  {
+    "path": "work/cloak-experiment/adaptive_selector_before_scale_adjustment.py",
+    "bytes": 9261,
+    "sha256": "7b5eac9fbb914d8a2ad857a69561d202a9f1eb8bfb951911a662f089e4f33685"
+  },
+  {
+    "path": "work/cloak-experiment/adaptive_selector_round1.py",
+    "bytes": 9273,
+    "sha256": "d126cdcc11a7661170d2e24bbc0d649125af568d0d5f6501c1b499c17c36885e"
+  },
+  {
+    "path": "work/cloak-experiment/adaptive_selector_round2.py",
+    "bytes": 9361,
+    "sha256": "bbed42819e3f80dd2601034a16c9aeaba731db4ac64e5ac4258e199e9e3d70be"
+  },
+  {
+    "path": "work/cloak-experiment/finalize.py",
+    "bytes": 8916,
+    "sha256": "c15da4f2328cf5d886b2deb9fedc101093ffd06f87cc1e8d7330c033cb9959c2"
+  },
+  {
+    "path": "work/cloak-experiment/finalize_baseline.py",
+    "bytes": 1192,
+    "sha256": "558beed50a2df3a09ec5777452bf9b2136b12c1817f95d0fccd6f8ca14708a8f"
+  },
+  {
+    "path": "work/cloak-experiment/run_baselines.py",
+    "bytes": 1205,
+    "sha256": "5d555bdff24fa52d9d053d99436eb7e166002c656db36c267e123821bd638a09"
+  },
+  {
+    "path": "work/cloak-experiment/validate_adjoint.py",
+    "bytes": 1091,
+    "sha256": "4f7fbfa1ac107247d776ae90560f4c2c3d209777783c81fa9e6b27875489da2c"
+  },
+  {
+    "path": "work/cloak-experiment/validate_macro.py",
+    "bytes": 830,
+    "sha256": "e3bcb3ef4fd86e6cf58b4201f622494bf68dae69c8f8186ed739099c81e42e6b"
+  },
+  {
+    "path": "work/cloak-review/audit.py",
+    "bytes": 2507,
+    "sha256": "9cbc6e5d07b82161074bf34fd3dbc90fd48873cd37547940bcb96a531356baf1"
+  },
+  {
+    "path": "work/cloak-review/plot_inspection.py",
+    "bytes": 1498,
+    "sha256": "679b553e3aaf2984251ef9fccebfe84947013f17e6c4c234dceb34555a9af789"
+  },
+  {
+    "path": "work/expand_manuscript.py",
+    "bytes": 20444,
+    "sha256": "46008cd70b707ac8b2817079ad67450ad731c2a40e140c7fbd008c1b6a38f809"
+  },
+  {
+    "path": "work/finalize_manuscript.py",
+    "bytes": 3804,
+    "sha256": "3c999e3b4735f622235421fd2aa3bfa32401083a9f93b7b7183f806b8e26f14d"
+  },
+  {
+    "path": "work/pictorial_figures.py",
+    "bytes": 9526,
+    "sha256": "a0c180de524be46d1946f00fcf686827145e2364fe694a85abe1a66fa8a47454"
+  },
+  {
+    "path": "work/render_agent_figures.py",
+    "bytes": 4844,
+    "sha256": "65e72c20d12366850cf47420ba6579e821071f4dcb6829fc2409a1f99b494975"
+  },
+  {
+    "path": "work/update_swarm_latex.py",
+    "bytes": 9025,
+    "sha256": "dec81aa406eae0e3b9db9b06df640ac1ba063ed67d8034f7d9821a3151df8807"
+  }
+]
