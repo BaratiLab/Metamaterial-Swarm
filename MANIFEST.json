@@ -1627,7 +1627,7 @@
   {
     "path": "outputs/overleaf-metamaterial-selector/COMPILATION.txt",
     "bytes": 453,
-    "sha256": "6d136df9ce7683a9a244302ed76b9f03ae72158c983c0b6fc58f788fb24f09fa"
+    "sha256": "be790b200c10ef865a293189ed848cb9ea343ff67bb25e57864d86b3bea9ab25"
   },
   {
     "path": "outputs/overleaf-metamaterial-selector/UPLOAD.txt",
@@ -1666,8 +1666,8 @@
   },
   {
     "path": "outputs/overleaf-metamaterial-selector/main.tex",
-    "bytes": 320186,
-    "sha256": "508674181d748a94f93f204fdeedab68b4b05665d52cd79fa4ae9eb493ef7bce"
+    "bytes": 337010,
+    "sha256": "bcc9feffad0e88de36fb08985cef880ffc55664555a9b572d21b4f6564db91e4"
   },
   {
     "path": "outputs/overleaf-metamaterial-selector/metrics.csv",
@@ -1713,6 +1713,11 @@
     "path": "outputs/paper-figures/figure1-scene.json",
     "bytes": 85760,
     "sha256": "59baf5c6f17381a77485a64d5b5710b07d2f46d36d24cbe1cfc4ee6dee61d402"
+  },
+  {
+    "path": "outputs/paper-figures/reference-audit.json",
+    "bytes": 17235,
+    "sha256": "0563d30cae2d8b2c494e8782c6b15de62be68067c8a7b534ca86918f4e38020f"
   },
   {
     "path": "outputs/paper-figures/stress-profiles.csv",
@@ -1810,14 +1815,19 @@
     "sha256": "bc1fd39345b4a3cea55f87086d24966ce73c3b0cecf53e23a7c305872a783179"
   },
   {
+    "path": "work/manuscript-revision/expand_references.py",
+    "bytes": 22463,
+    "sha256": "7db6aa5ff4ed0d5385b88f92a4bf201f9dbf995fef7e06585ab27fec9e8930ca"
+  },
+  {
     "path": "work/manuscript-revision/package_update.py",
-    "bytes": 6117,
-    "sha256": "9237f597e8ad71c9c891bd6f86d66709c0f3e90930ece063c64c61ae0e43316a"
+    "bytes": 7043,
+    "sha256": "0da464a9410d3dfcd086803f1df5fd21a0ab67c8c357c30e6fa2908008ab1d97"
   },
   {
     "path": "work/manuscript-revision/rewrite_paper.py",
-    "bytes": 51311,
-    "sha256": "c7f00675e7264e306ffe9d376d14b3da63225a89e993b5a922c9c4403eaee643"
+    "bytes": 51370,
+    "sha256": "5b75cbd4f4d4ebc2a2891996cf9812a705e75529617f564a7d74ece7674af1aa"
   },
   {
     "path": "work/manuscript-revision/stress-paper-section.tex",

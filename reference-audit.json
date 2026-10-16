@@ -1,0 +1,410 @@
+{
+  "checked_date": "2026-10-16",
+  "target": "Computer Methods in Applied Mechanics and Engineering (CMAME)",
+  "reference_count": 40,
+  "all_entries_cited": true,
+  "order": "first citation",
+  "notes": "Original-paper references use the user-supplied primary bibliography; metadata updated to journal issue year where verified. Additional agent references checked against publisher/proceedings/arXiv records. Preprints explicitly identified. Links are primary publisher, author, or institutional records.",
+  "references": [
+    {
+      "key": "yu",
+      "authors": "X. Yu, J. Zhou, H. Liang, Z. Jiang, L. Wu",
+      "title": "Mechanical metamaterials associated with stiffness, rigidity and compressibility: A brief review",
+      "venue": "Progress in Materials Science 94, 114--173",
+      "year": 2018,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0079642517301445",
+      "original_paper_reference": 2,
+      "status": "published"
+    },
+    {
+      "key": "zhou",
+      "authors": "S. Zhou, Q. Li",
+      "title": "Design of graded two-phase microstructures for tailored elasticity gradients",
+      "venue": "Journal of Materials Science 43, 5157--5167",
+      "year": 2008,
+      "url": "",
+      "original_paper_reference": 16,
+      "status": "published"
+    },
+    {
+      "key": "shapedna",
+      "authors": "L. Wang, Y.-C. Chan, Z. Liu, P. Zhu, W. Chen",
+      "title": "Data-driven metamaterial design with Laplace--Beltrami spectrum as `shape-DNA'",
+      "venue": "Structural and Multidisciplinary Optimization 61, 2613--2628",
+      "year": 2020,
+      "url": "https://doi.org/10.1007/s00158-020-02523-5",
+      "original_paper_reference": 19,
+      "status": "published"
+    },
+    {
+      "key": "wang2020",
+      "authors": "L. Wang, Y.-C. Chan, F. Ahmed, Z. Liu, P. Zhu, W. Chen",
+      "title": "Deep generative modeling for mechanistic-based learning and design of metamaterial systems",
+      "venue": "Computer Methods in Applied Mechanics and Engineering 372, 113377",
+      "year": 2020,
+      "url": "https://doi.org/10.1016/j.cma.2020.113377",
+      "original_paper_reference": null,
+      "status": "published"
+    },
+    {
+      "key": "metaset",
+      "authors": "Y.-C. Chan, F. Ahmed, L. Wang, W. Chen",
+      "title": "METASET: Exploring shape and property spaces for data-driven metamaterials design",
+      "venue": "Journal of Mechanical Design 143(3), 031707",
+      "year": 2021,
+      "url": "https://doi.org/10.1115/1.4048629",
+      "original_paper_reference": 61,
+      "status": "published"
+    },
+    {
+      "key": "lvgp",
+      "authors": "L. Wang, S. Tao, P. Zhu, W. Chen",
+      "title": "Data-driven topology optimization with multiclass microstructures using latent variable Gaussian process",
+      "venue": "Journal of Mechanical Design 143(3), 031708",
+      "year": 2021,
+      "url": "https://doi.org/10.1115/1.4048628",
+      "original_paper_reference": null,
+      "status": "published"
+    },
+    {
+      "key": "cloak2022",
+      "authors": "L. Wang, J. Boddapati, K. Liu, P. Zhu, C. Daraio, W. Chen",
+      "title": "Mechanical cloak via data-driven aperiodic metamaterial design",
+      "venue": "Proceedings of the National Academy of Sciences 119(13), e2122185119",
+      "year": 2022,
+      "url": "https://doi.org/10.1073/pnas.2122185119",
+      "original_paper_reference": null,
+      "status": "published"
+    },
+    {
+      "key": "chemcrow",
+      "authors": "A. M. Bran, S. Cox, O. Schilter, C. Baldassari, A. D. White, P. Schwaller",
+      "title": "Augmenting large language models with chemistry tools",
+      "venue": "Nature Machine Intelligence 6, 525--535",
+      "year": 2024,
+      "url": "https://doi.org/10.1038/s42256-024-00832-8",
+      "original_paper_reference": null,
+      "status": "published"
+    },
+    {
+      "key": "coscientist",
+      "authors": "D. A. Boiko, R. MacKnight, B. Kline, G. Gomes",
+      "title": "Autonomous chemical research with large language models",
+      "venue": "Nature 624, 570--578",
+      "year": 2023,
+      "url": "https://doi.org/10.1038/s41586-023-06792-0",
+      "original_paper_reference": null,
+      "status": "published"
+    },
+    {
+      "key": "matsci",
+      "authors": "A. Chaudhari, J. Ock, A. Barati Farimani",
+      "title": "Modular large language model agents for multi-task computational materials science",
+      "venue": "Communications Materials 7, 131",
+      "year": 2026,
+      "url": "https://doi.org/10.1038/s43246-025-00994-x",
+      "original_paper_reference": null,
+      "status": "published"
+    },
+    {
+      "key": "mechanicalagent",
+      "authors": "Y. Jadhav, A. Barati Farimani",
+      "title": "Large language model agent as a mechanical designer",
+      "venue": "arXiv:2404.17525v3",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2404.17525v3",
+      "original_paper_reference": null,
+      "status": "preprint; first posted 2024, cited revision 2025"
+    },
+    {
+      "key": "clausen",
+      "authors": "A. Clausen, F. Wang, J. S. Jensen, O. Sigmund, J. A. Lewis",
+      "title": "Topology optimized architectures with programmable Poisson's ratio over large deformations",
+      "venue": "Advanced Materials 27, 5523--5527",
+      "year": 2015,
+      "url": "https://orbit.dtu.dk/files/128079105/ProgrammablePoisson_postPrint.pdf",
+      "original_paper_reference": 4,
+      "status": "published"
+    },
+    {
+      "key": "xia2014",
+      "authors": "L. Xia, P. Breitkopf",
+      "title": "Concurrent topology optimization design of material and structure within FE2 nonlinear multiscale analysis framework",
+      "venue": "Computer Methods in Applied Mechanics and Engineering 278, 524--542",
+      "year": 2014,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0045782514001832",
+      "original_paper_reference": 12,
+      "status": "published"
+    },
+    {
+      "key": "sivapuram",
+      "authors": "R. Sivapuram, P. D. Dunning, H. A. Kim",
+      "title": "Simultaneous material and structural optimization by multiscale topology optimization",
+      "venue": "Structural and Multidisciplinary Optimization 54, 1267--1281",
+      "year": 2016,
+      "url": "https://orca.cardiff.ac.uk/id/eprint/104063/",
+      "original_paper_reference": 54,
+      "status": "published"
+    },
+    {
+      "key": "xia2015",
+      "authors": "L. Xia, P. Breitkopf",
+      "title": "Multiscale structural topology optimization with an approximate constitutive model for local material microstructure",
+      "venue": "Computer Methods in Applied Mechanics and Engineering 286, 147--167",
+      "year": 2015,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0045782514004976",
+      "original_paper_reference": 13,
+      "status": "published"
+    },
+    {
+      "key": "gao",
+      "authors": "J. Gao, Z. Luo, L. Xia, L. Gao",
+      "title": "Concurrent topology optimization of multiscale composite structures in Matlab",
+      "venue": "Structural and Multidisciplinary Optimization 60, 2621--2651",
+      "year": 2019,
+      "url": "https://github.com/GabrielJie/Concurrent-topology-optimization-in-Matlab",
+      "original_paper_reference": 55,
+      "status": "published"
+    },
+    {
+      "key": "homog",
+      "authors": "L. Xia, P. Breitkopf",
+      "title": "Design of materials using topology optimization and energy-based homogenization approach in Matlab",
+      "venue": "Structural and Multidisciplinary Optimization 52, 1229--1241",
+      "year": 2015,
+      "url": "https://doi.org/10.1007/s00158-015-1294-0",
+      "original_paper_reference": 48,
+      "status": "published"
+    },
+    {
+      "key": "zhu",
+      "authors": "B. Zhu, M. Skouras, D. Chen, W. Matusik",
+      "title": "Two-scale topology optimization with microstructures",
+      "venue": "ACM Transactions on Graphics 36(4)",
+      "year": 2017,
+      "url": "https://arxiv.org/abs/1706.03189",
+      "original_paper_reference": 8,
+      "status": "published"
+    },
+    {
+      "key": "panetta",
+      "authors": "J. Panetta, Q. Zhou, L. Malomo, N. Pietroni, P. Cignoni, D. Zorin",
+      "title": "Elastic textures for additive fabrication",
+      "venue": "ACM Transactions on Graphics 34(4), 135",
+      "year": 2015,
+      "url": "https://doi.org/10.1145/2766937",
+      "original_paper_reference": 23,
+      "status": "published"
+    },
+    {
+      "key": "schumacher",
+      "authors": "C. Schumacher, B. Bickel, J. Rys, S. Marschner, C. Daraio, M. Gross",
+      "title": "Microstructures to control elasticity in 3D printing",
+      "venue": "ACM Transactions on Graphics 34(4), 136",
+      "year": 2015,
+      "url": "https://doi.org/10.1145/2766926",
+      "original_paper_reference": 28,
+      "status": "published"
+    },
+    {
+      "key": "kingma",
+      "authors": "D. P. Kingma, M. Welling",
+      "title": "Auto-encoding variational Bayes",
+      "venue": "International Conference on Learning Representations",
+      "year": 2014,
+      "url": "https://arxiv.org/abs/1312.6114",
+      "original_paper_reference": 35,
+      "status": "published"
+    },
+    {
+      "key": "tmetaset",
+      "authors": "D. Lee, Y.-C. Chan, Wei (Wayne) Chen, L. Wang, A. van Beek, Wei Chen",
+      "title": "t-METASET: Task-aware acquisition of metamaterial datasets through diversity-based active learning",
+      "venue": "Journal of Mechanical Design 145(3), 031704",
+      "year": 2023,
+      "url": "https://doi.org/10.1115/1.4055925",
+      "original_paper_reference": null,
+      "status": "published"
+    },
+    {
+      "key": "dataset",
+      "authors": "L. Wang, J. Boddapati, K. Liu, P. Zhu, C. Daraio, W. Chen",
+      "title": "2D orthotropic metamaterial micorstructrue dataset",
+      "venue": "Figshare, version 1, CC BY 4.0",
+      "year": 2021,
+      "url": "https://doi.org/10.6084/m9.figshare.17141975.v1",
+      "original_paper_reference": null,
+      "status": "dataset"
+    },
+    {
+      "key": "white",
+      "authors": "D. A. White, W. J. Arrighi, J. Kudo, S. E. Watts",
+      "title": "Multiscale topology optimization using neural network surrogate models",
+      "venue": "Computer Methods in Applied Mechanics and Engineering 346, 1118--1135",
+      "year": 2019,
+      "url": "https://www.sciencedirect.com/science/article/pii/S004578251830450X",
+      "original_paper_reference": 32,
+      "status": "published"
+    },
+    {
+      "key": "watts",
+      "authors": "S. Watts, W. Arrighi, J. Kudo, D. A. Tortorelli, D. A. White",
+      "title": "Simple, accurate surrogate models of the elastic response of three-dimensional open truss micro-architectures with applications to multiscale topology design",
+      "venue": "Structural and Multidisciplinary Optimization 60, 1887--1920",
+      "year": 2019,
+      "url": "https://doi.org/10.1007/s00158-019-02297-5",
+      "original_paper_reference": 31,
+      "status": "published"
+    },
+    {
+      "key": "mrf",
+      "authors": "N. Komodakis, N. Paragios, G. Tziritas",
+      "title": "MRF energy minimization and beyond via dual decomposition",
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence 33(3), 531--552",
+      "year": 2011,
+      "url": "https://www.csd.uoc.gr/~komod/publications.html",
+      "original_paper_reference": 53,
+      "status": "published"
+    },
+    {
+      "key": "mma",
+      "authors": "K. Svanberg",
+      "title": "The method of moving asymptotes---a new method for structural optimization",
+      "venue": "International Journal for Numerical Methods in Engineering 24, 359--373",
+      "year": 1987,
+      "url": "https://doi.org/10.1002/nme.1620240207",
+      "original_paper_reference": 52,
+      "status": "published"
+    },
+    {
+      "key": "react",
+      "authors": "S. Yao, J. Zhao, D. Yu, N. Du, I. Shafran, K. Narasimhan, Y. Cao",
+      "title": "ReAct: Synergizing reasoning and acting in language models",
+      "venue": "International Conference on Learning Representations",
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2210.03629",
+      "original_paper_reference": null,
+      "status": "published"
+    },
+    {
+      "key": "toolformer",
+      "authors": "T. Schick, J. Dwivedi-Yu, R. Dess\\`i, R. Raileanu, M. Lomeli, E. Hambro, L. Zettlemoyer, N. Cancedda, T. Scialom",
+      "title": "Toolformer: Language models can teach themselves to use tools",
+      "venue": "Advances in Neural Information Processing Systems 36",
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2302.04761",
+      "original_paper_reference": null,
+      "status": "published"
+    },
+    {
+      "key": "opro",
+      "authors": "C. Yang, X. Wang, Y. Lu, H. Liu, Q. V. Le, D. Zhou, X. Chen",
+      "title": "Large language models as optimizers",
+      "venue": "International Conference on Learning Representations",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2309.03409",
+      "original_paper_reference": null,
+      "status": "published"
+    },
+    {
+      "key": "reflexion",
+      "authors": "N. Shinn, F. Cassano, A. Gopinath, K. Narasimhan, S. Yao",
+      "title": "Reflexion: Language agents with verbal reinforcement learning",
+      "venue": "Advances in Neural Information Processing Systems 36",
+      "year": 2023,
+      "url": "https://papers.nips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html",
+      "original_paper_reference": null,
+      "status": "published"
+    },
+    {
+      "key": "tot",
+      "authors": "S. Yao, D. Yu, J. Zhao, I. Shafran, T. L. Griffiths, Y. Cao, K. Narasimhan",
+      "title": "Tree of thoughts: Deliberate problem solving with large language models",
+      "venue": "Advances in Neural Information Processing Systems 36",
+      "year": 2023,
+      "url": "https://arxiv.org/abs/2305.10601",
+      "original_paper_reference": null,
+      "status": "published"
+    },
+    {
+      "key": "autogen",
+      "authors": "Q. Wu, G. Bansal, J. Zhang, Y. Wu, B. Li, E. Zhu, L. Jiang, X. Zhang, S. Zhang, A. H. Awadallah, R. W. White, D. Burger, C. Wang",
+      "title": "AutoGen: Enabling next-gen LLM applications via multi-agent conversation",
+      "venue": "Conference on Language Modeling",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2308.08155",
+      "original_paper_reference": null,
+      "status": "published"
+    },
+    {
+      "key": "debate",
+      "authors": "Y. Du, S. Li, A. Torralba, J. B. Tenenbaum, I. Mordatch",
+      "title": "Improving factuality and reasoning in language models through multiagent debate",
+      "venue": "Proceedings of Machine Learning Research 235, 11733--11763",
+      "year": 2024,
+      "url": "https://proceedings.mlr.press/v235/du24e.html",
+      "original_paper_reference": null,
+      "status": "published"
+    },
+    {
+      "key": "processagent",
+      "authors": "T. Zeng, S. Badrinarayanan, J. Ock, C.-K. Lai, A. Barati Farimani",
+      "title": "LLM-guided chemical process optimization with a multi-agent approach",
+      "venue": "arXiv:2506.20921v2",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2506.20921v2",
+      "original_paper_reference": null,
+      "status": "preprint"
+    },
+    {
+      "key": "alloyagent",
+      "authors": "P. Pak, A. Chandrasekhar, A. Barati Farimani",
+      "title": "Agentic additive manufacturing alloy evaluation",
+      "venue": "Additive Manufacturing Letters 17, 100355",
+      "year": 2026,
+      "url": "https://doi.org/10.1016/j.addlet.2026.100355",
+      "original_paper_reference": null,
+      "status": "published"
+    },
+    {
+      "key": "agentscad",
+      "authors": "E. George, C. Keefe, P. Pak, A. Barati Farimani",
+      "title": "AgentsCAD: Automated design for manufacturing of FDM parts via multi-agent LLM reasoning and geometric feature recognition",
+      "venue": "arXiv:2607.02448v2",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2607.02448v2",
+      "original_paper_reference": null,
+      "status": "preprint"
+    },
+    {
+      "key": "databaseagent",
+      "authors": "A. Chandrasekhar, O. Barati Farimani, R. S. Meda, A. Barati Farimani",
+      "title": "Material Database Agent: A multimodal agentic framework for scientific literature mining",
+      "venue": "arXiv:2605.04278",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2605.04278",
+      "original_paper_reference": null,
+      "status": "preprint"
+    },
+    {
+      "key": "cheng",
+      "authors": "L. Cheng, J. Bai, A. C. To",
+      "title": "Functionally graded lattice structure topology optimization for the design of additive manufactured components with stress constraints",
+      "venue": "Computer Methods in Applied Mechanics and Engineering 344, 334--359",
+      "year": 2019,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0045782518305061",
+      "original_paper_reference": 24,
+      "status": "published"
+    },
+    {
+      "key": "nie",
+      "authors": "Z. Nie, H. Jiang, L. B. Kara",
+      "title": "Stress field prediction in cantilevered structures using convolutional neural networks",
+      "venue": "Journal of Computing and Information Science in Engineering 20(1), 011002",
+      "year": 2020,
+      "url": "https://doi.org/10.1115/1.4044097",
+      "original_paper_reference": 33,
+      "status": "published"
+    }
+  ]
+}
