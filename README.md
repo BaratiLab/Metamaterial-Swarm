@@ -31,7 +31,7 @@ This is one exploratory case with historical knowledge, a fixed numerical policy
 - [Detailed coordination report](COORDINATION-RESULTS.md)
 - [Coordination code, actions, validation, and results](cloak-coordination-results.zip)
 
-The manuscript centers on cloaking, with the earlier beam study as supporting evidence. Liwei Wang is first author; Amir Farhadi Farimani is corresponding author, with CMU Mechanical Engineering, Chemical Engineering, Materials Science and Engineering, and Machine Learning affiliations. Final contributions, funding, and conflict declarations still require author review. This private repository is a working research record, not a permanent public archive.
+The manuscript centers on cloaking, with the earlier beam study as supporting evidence. Liwei Wang is first author; Amir Barati Farimani is corresponding author, with CMU Mechanical Engineering, Chemical Engineering, Materials Science and Engineering, and Machine Learning affiliations. Final contributions, funding, and conflict declarations still require author review. This private repository is a working research record, not a permanent public archive.
 
 ## Actual structures and recovered stresses
 
@@ -45,7 +45,7 @@ The new figures use original pixel geometries and saved fine displacement fields
 
 ## Complete source distribution
 
-Download [Metamaterial-Swarm-source-and-results.zip](Metamaterial-Swarm-source-and-results.zip) and extract it. The original structure is preserved, including all project-authored Python/MATLAB code, recorded proposals, outcomes, figure-generation source, and rewritten paper. Rendered PNG/PDF/SVG assets are distributed in the separate publication-figure and Overleaf archives to keep each upload below GitHub’s per-file limit; required paper PNGs are also at repository root. [MANIFEST.json](MANIFEST.json) lists every archived file and SHA-256 checksum. Installed third-party runtimes and large displacement caches are excluded.
+Download [Metamaterial-Swarm-source-and-results.zip](Metamaterial-Swarm-source-and-results.zip) and extract it. The original structure is preserved, including all project-authored Python/MATLAB code, recorded proposals, outcomes, figure-generation source, and rewritten paper. Rendered PNG/PDF/SVG assets are distributed in the separate publication-figure and Overleaf archives to keep each upload below GitHub’s per-file limit; required paper PNGs are also at repository root. Rendered PNG/PDF/SVG assets are distributed in the separate publication-figure and Overleaf archives to keep each upload below GitHub’s per-file limit; required paper PNGs are also at repository root. [MANIFEST.json](MANIFEST.json) lists every archived file and SHA-256 checksum. Installed third-party runtimes and large displacement caches are excluded.
 
 | Extracted directory | Contents |
 | --- | --- |

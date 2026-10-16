@@ -1631,8 +1631,8 @@
   },
   {
     "path": "outputs/overleaf-metamaterial-selector/UPLOAD.txt",
-    "bytes": 527,
-    "sha256": "8bb9d9ebc1ba99810f5915fead5c935e58864286c483002f0256a599d726181e"
+    "bytes": 526,
+    "sha256": "7926eb0f675f9e8e1aaf0c489dc33d3a1cbb60d4435eab2f3923ccf15b730b95"
   },
   {
     "path": "outputs/overleaf-metamaterial-selector/cloak-audit.json",
@@ -1666,8 +1666,8 @@
   },
   {
     "path": "outputs/overleaf-metamaterial-selector/main.tex",
-    "bytes": 320187,
-    "sha256": "9deb96ecf2f77f4b47b34652b14671454c22dc977bc89c76384bd33d0413aacf"
+    "bytes": 320186,
+    "sha256": "508674181d748a94f93f204fdeedab68b4b05665d52cd79fa4ae9eb493ef7bce"
   },
   {
     "path": "outputs/overleaf-metamaterial-selector/metrics.csv",
@@ -1796,8 +1796,8 @@
   },
   {
     "path": "work/manuscript-revision/add_authors_and_fields.py",
-    "bytes": 10655,
-    "sha256": "2966035c73ff9ccc7baf0b9ca88d51295070d4e0d816af56f1b0a84d0aacf669"
+    "bytes": 10654,
+    "sha256": "7e780b5f04d8b530b62ee8f0277de70b3ada54ea9d7cd01324623726cc6c6664"
   },
   {
     "path": "work/manuscript-revision/build_figure1.py",
@@ -1811,13 +1811,13 @@
   },
   {
     "path": "work/manuscript-revision/package_update.py",
-    "bytes": 6048,
-    "sha256": "89bbf7935a30da79415ba29be658a5637b117523d389f058103b514b6874c9c3"
+    "bytes": 6117,
+    "sha256": "9237f597e8ad71c9c891bd6f86d66709c0f3e90930ece063c64c61ae0e43316a"
   },
   {
     "path": "work/manuscript-revision/rewrite_paper.py",
-    "bytes": 51312,
-    "sha256": "b0d8963dbbc9397a6110b2b2daf22d46b0ed829f33284fda5969fc1f1c36ce82"
+    "bytes": 51311,
+    "sha256": "c7f00675e7264e306ffe9d376d14b3da63225a89e993b5a922c9c4403eaee643"
   },
   {
     "path": "work/manuscript-revision/stress-paper-section.tex",
