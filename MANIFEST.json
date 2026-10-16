@@ -1,45 +1,5 @@
 [
   {
-    "path": "outputs/agent-figures/agent-swarm.png",
-    "bytes": 381332,
-    "sha256": "dd4001c77144ee7fcd3e6ff341d08b1cb498aebaf5e86e7dd1b4ece5da636fda"
-  },
-  {
-    "path": "outputs/agent-figures/agent-swarm.svg",
-    "bytes": 97707,
-    "sha256": "43b18a8712c3171c5b879fc482d0d75f8ecad2f9be9a635d5a4c319654b7de40"
-  },
-  {
-    "path": "outputs/agent-figures/overall-concept.png",
-    "bytes": 359610,
-    "sha256": "e562b31f261425a1961cb04f78855d0ed8bfefdf1febe58471d9429678e43e20"
-  },
-  {
-    "path": "outputs/agent-figures/overall-concept.svg",
-    "bytes": 98917,
-    "sha256": "9610dd3df6e3004dd78ddde0897469947708a69165da59cccdceb9d9fdc28d22"
-  },
-  {
-    "path": "outputs/agent-figures/overleaf-concept-proof.png",
-    "bytes": 687094,
-    "sha256": "e934bb7700ef25557fd242f66c62089d4e2d7140fce41f3d4f9aca92fdf24f7d"
-  },
-  {
-    "path": "outputs/agent-figures/overleaf-pictorial-concept.png",
-    "bytes": 626701,
-    "sha256": "978ffc05fb55f6363d7d6fda93eda52673fbfe3cb3db406b50e243d6d113762f"
-  },
-  {
-    "path": "outputs/agent-figures/overleaf-robot-swarm.png",
-    "bytes": 648205,
-    "sha256": "3b88f16715f496a51540ad58f85e2a2130da7789a5dcb178c7d318e93ac12bf0"
-  },
-  {
-    "path": "outputs/agent-figures/overleaf-swarm-proof.png",
-    "bytes": 572058,
-    "sha256": "5824461aaac0e17293ba6a0d9dabf6dbe164ef0804ee5d877fae9ea0d2268847"
-  },
-  {
     "path": "outputs/cloak-coordination/REPRODUCE.txt",
     "bytes": 2087,
     "sha256": "3ff9647a073d4d9bc9967a90ca4a1a3a8a01636ca3946bf9412b5f600dd9093b"
@@ -88,16 +48,6 @@
     "path": "outputs/cloak-coordination/code_hashes.json",
     "bytes": 450,
     "sha256": "ad135c2ab0c437e81b181e7e1621ce381f78b8324c5432eda092ab19cc5faeae"
-  },
-  {
-    "path": "outputs/cloak-coordination/comparison.png",
-    "bytes": 117141,
-    "sha256": "d19d0f5d6a02206cb07ac24f2782d025b336c9aa990f0fce59ba25c657187165"
-  },
-  {
-    "path": "outputs/cloak-coordination/comparison.svg",
-    "bytes": 40606,
-    "sha256": "f397174607eb0d6e3047ac317dd3121c2ea851c04033a61e16e50dc55d001862"
   },
   {
     "path": "outputs/cloak-coordination/coordinate.py",
@@ -800,11 +750,6 @@
     "sha256": "ff01ae78ed8a996329056d460b6d6ca521c12e41bb7df24abbf13bf1c4b377de"
   },
   {
-    "path": "outputs/cloak-coordination/outside_error_fields.png",
-    "bytes": 747519,
-    "sha256": "694b04a644930798771bd37bdf81b2352c962f0cd8908f89da152007f66141a8"
-  },
-  {
     "path": "outputs/cloak-coordination/plot_assemblies.py",
     "bytes": 1265,
     "sha256": "8545ab5e94f703c6a6ca366ea95a61162ac8c791d4c3b68f17e6f0cfbfb09aef"
@@ -830,11 +775,6 @@
     "sha256": "626813ef05a3d2208fbe44eb776d35a5fbb98aede1d92426f6456abf9c5a395e"
   },
   {
-    "path": "outputs/cloak-coordination/retained_assemblies.png",
-    "bytes": 187640,
-    "sha256": "00bffa7fe8b4c7049c86b4d1f0f8a7ebcddde2775cbf424c75dea8ffbe6e5e90"
-  },
-  {
     "path": "outputs/cloak-coordination/run_numerical.py",
     "bytes": 231,
     "sha256": "42fcba783e1cbd6e784dc4a0920122d518894ca2453c1055cfdd8eab2bdbab04"
@@ -843,6 +783,11 @@
     "path": "outputs/cloak-coordination/shared_prior_history.json",
     "bytes": 96551,
     "sha256": "d0faaf465443947be6d6b26f3684e169154a087874d2ca30e266c37f73cab063"
+  },
+  {
+    "path": "outputs/cloak-coordination/stress_postprocess.py",
+    "bytes": 10637,
+    "sha256": "b8676defb6b6397e5cb609293a5cfadd68b950f7a41e183da706044932cc0f2c"
   },
   {
     "path": "outputs/cloak-coordination/summarize.py",
@@ -903,16 +848,6 @@
     "path": "outputs/cloak-experiment/cloak_adapter.py",
     "bytes": 7989,
     "sha256": "ca7997b2817e1b53597f494cb0702604e9a1a3675a577ba378ac01a771c69fde"
-  },
-  {
-    "path": "outputs/cloak-experiment/comparison.png",
-    "bytes": 174645,
-    "sha256": "196ddab4a84d1b925f5f84282ff1eaeb6e87abd014231993912dd57fc25af3df"
-  },
-  {
-    "path": "outputs/cloak-experiment/comparison.svg",
-    "bytes": 76363,
-    "sha256": "6662cf6551708a379b8c88afee39a4f5c3176cacc8c405ef727f037a74b8bc4b"
   },
   {
     "path": "outputs/cloak-experiment/experiment.py",
@@ -1030,11 +965,6 @@
     "sha256": "81d004512724e3ca79329e9513bb05d3c67c592b739c33194dbe3df45d041109"
   },
   {
-    "path": "outputs/cloak-experiment/outside_error_fields.png",
-    "bytes": 681248,
-    "sha256": "45d4c455a47ce640dc63e21f6dcee6b4080b3aa60ddcf681968566774705929a"
-  },
-  {
     "path": "outputs/cloak-experiment/plot_error_fields.py",
     "bytes": 1833,
     "sha256": "6c953137e19c170f30c5bd99cfe3918efb27928c8eb778fc8451bf2af1b854bf"
@@ -1058,11 +988,6 @@
     "path": "outputs/cloak-experiment/requirements.txt",
     "bytes": 71,
     "sha256": "626813ef05a3d2208fbe44eb776d35a5fbb98aede1d92426f6456abf9c5a395e"
-  },
-  {
-    "path": "outputs/cloak-experiment/retained_assemblies.png",
-    "bytes": 150269,
-    "sha256": "79bd9bb94f2bef227f49c22ba21e349271098a57fe6989675ffecf8f827e4583"
   },
   {
     "path": "outputs/cloak-experiment/runtime.json",
@@ -1270,16 +1195,6 @@
     "sha256": "6a3cf3319bd8a649b51d03e6ab9168cf304d70720589be2b5cd2f7e35d9576cb"
   },
   {
-    "path": "outputs/cloak-review/package-inspection.png",
-    "bytes": 200540,
-    "sha256": "c176cf47b5c02225583c6b0832f132f432b9ecf7498fd7814efcd14c76ba2ab6"
-  },
-  {
-    "path": "outputs/cloak-review/package-inspection.svg",
-    "bytes": 92879,
-    "sha256": "a556477bb307ad3721f85167785829b7d0de06d3727979c49f8a885a9d031ad5"
-  },
-  {
     "path": "outputs/cloak-review/source_manifest.json",
     "bytes": 2137,
     "sha256": "61817ecc6af1d1735fc302a4bd55bbdbdc293dff6efe66ed64a17d8f6cf72c62"
@@ -1295,11 +1210,6 @@
     "sha256": "73392622eaad4a72867893581c1c8b858b8afd57cc8c29f662296b1bbe3d9ebd"
   },
   {
-    "path": "outputs/metamaterial-selector/assemblies.png",
-    "bytes": 269027,
-    "sha256": "10622d58b218fe75e0ff3fb8de0c4bd579608673a00b995473a3d0673e75fb97"
-  },
-  {
     "path": "outputs/metamaterial-selector/benchmark.py",
     "bytes": 21680,
     "sha256": "68a18b5997bf899129d79561832156b0861a0c23c263dca5a7d1245bfb584015"
@@ -1308,11 +1218,6 @@
     "path": "outputs/metamaterial-selector/check_void.py",
     "bytes": 1173,
     "sha256": "39c0a0fd6141888e0d3e1ca2b45ffc9bcd11fdaa8c46ab5eef97bd80cc5bd4ce"
-  },
-  {
-    "path": "outputs/metamaterial-selector/comparison.png",
-    "bytes": 311361,
-    "sha256": "09ba54dd968aed79bf81f4481267d9e4be7ec09c117eb6a09d14a26d1fde501b"
   },
   {
     "path": "outputs/metamaterial-selector/data/Geometries.mat",
@@ -1690,11 +1595,6 @@
     "sha256": "a8ebb09ef535e5347325a07f8e04fb70ea1649a7bb430c944d025a868b7a3e7f"
   },
   {
-    "path": "outputs/metamaterial-selector/swarm/swarm_comparison.png",
-    "bytes": 182441,
-    "sha256": "9d6898938fc4e6a124b701cb91e5e8a706713f4180ec3436282c12cca44e8ac1"
-  },
-  {
     "path": "outputs/metamaterial-selector/swarm/trial_metrics.csv",
     "bytes": 3387,
     "sha256": "096b159c5508018090504308f1a5f0ca15ec28320180d7082de10053c12431c1"
@@ -1726,13 +1626,13 @@
   },
   {
     "path": "outputs/overleaf-metamaterial-selector/COMPILATION.txt",
-    "bytes": 400,
-    "sha256": "024fa61e0b4f7d5baeda864c1814833fb5e71b86054b7dc08b6d9e3892d3532b"
+    "bytes": 453,
+    "sha256": "6d136df9ce7683a9a244302ed76b9f03ae72158c983c0b6fc58f788fb24f09fa"
   },
   {
     "path": "outputs/overleaf-metamaterial-selector/UPLOAD.txt",
-    "bytes": 498,
-    "sha256": "01ecf588dd630eae47df5a343640ad96823d35212a5dc83ae7bd386ea479f834"
+    "bytes": 527,
+    "sha256": "8bb9d9ebc1ba99810f5915fead5c935e58864286c483002f0256a599d726181e"
   },
   {
     "path": "outputs/overleaf-metamaterial-selector/cloak-audit.json",
@@ -1740,29 +1640,14 @@
     "sha256": "9fa6ee45f73a4a8c8aeb5e1c1a391098aa6d4b0c0479f0ef904230f05e9411bf"
   },
   {
-    "path": "outputs/overleaf-metamaterial-selector/cloak-comparison.png",
-    "bytes": 117141,
-    "sha256": "d19d0f5d6a02206cb07ac24f2782d025b336c9aa990f0fce59ba25c657187165"
-  },
-  {
     "path": "outputs/overleaf-metamaterial-selector/cloak-force_balance.json",
     "bytes": 704,
     "sha256": "4de9dfae109eee9c2a801ce99476112ac37694bd49f426022b7fc3e17464a6d4"
   },
   {
-    "path": "outputs/overleaf-metamaterial-selector/cloak-outside_error_fields.png",
-    "bytes": 747519,
-    "sha256": "694b04a644930798771bd37bdf81b2352c962f0cd8908f89da152007f66141a8"
-  },
-  {
     "path": "outputs/overleaf-metamaterial-selector/cloak-protocol.json",
     "bytes": 2110,
     "sha256": "4dda6a562db3bf4d9dfc73faa192e923053cbd9425382d735d2ed33bacef0dc0"
-  },
-  {
-    "path": "outputs/overleaf-metamaterial-selector/cloak-retained_assemblies.png",
-    "bytes": 187640,
-    "sha256": "00bffa7fe8b4c7049c86b4d1f0f8a7ebcddde2775cbf424c75dea8ffbe6e5e90"
   },
   {
     "path": "outputs/overleaf-metamaterial-selector/cloak-summary.json",
@@ -1775,34 +1660,14 @@
     "sha256": "9ad93cd230c74ed8133e15eac085f2c31e588087a53ef6c53d834acb3f04f2e0"
   },
   {
-    "path": "outputs/overleaf-metamaterial-selector/figure1-coordinated-workflow.pdf",
-    "bytes": 48111,
-    "sha256": "44873f513d1420f4ad21e18d470725c8f90292c0bd184655b8bc778041b7d689"
-  },
-  {
-    "path": "outputs/overleaf-metamaterial-selector/figure1-coordinated-workflow.png",
-    "bytes": 309996,
-    "sha256": "67e540417ea95f12d349aefcf2f619177d9816a5e2131c6d04abe07babc0f74c"
-  },
-  {
-    "path": "outputs/overleaf-metamaterial-selector/figure1-coordinated-workflow.svg",
-    "bytes": 239014,
-    "sha256": "cbb80e144da283379d8770cf96910729fa64dfc4952a04b012c157b61ba10607"
-  },
-  {
     "path": "outputs/overleaf-metamaterial-selector/llm_actions.json",
     "bytes": 1858,
     "sha256": "9dbcc0855061bba94bbb91bda648fca65c4d84c52eac9a45da75f61f8410dd03"
   },
   {
     "path": "outputs/overleaf-metamaterial-selector/main.tex",
-    "bytes": 305617,
-    "sha256": "d277fe8ea3ad58c3365bf5c106a057ef89253adf8add2f8e4a1b987eba6ff10b"
-  },
-  {
-    "path": "outputs/overleaf-metamaterial-selector/metamaterial-swarm-paper.pdf",
-    "bytes": 442982,
-    "sha256": "fd77f00e0b69421cc2ec6f1c405f59a4d727b2d11a8066540014ec18e76e19af"
+    "bytes": 320187,
+    "sha256": "9deb96ecf2f77f4b47b34652b14671454c22dc977bc89c76384bd33d0413aacf"
   },
   {
     "path": "outputs/overleaf-metamaterial-selector/metrics.csv",
@@ -1813,16 +1678,6 @@
     "path": "outputs/overleaf-metamaterial-selector/run_manifest.json",
     "bytes": 547,
     "sha256": "30b931f11263ca84e383126ef64f9cb917b79a5235fa7b707e6a31083f833eb9"
-  },
-  {
-    "path": "outputs/overleaf-metamaterial-selector/supplementary-comparison.png",
-    "bytes": 311361,
-    "sha256": "09ba54dd968aed79bf81f4481267d9e4be7ec09c117eb6a09d14a26d1fde501b"
-  },
-  {
-    "path": "outputs/overleaf-metamaterial-selector/swarm-comparison.png",
-    "bytes": 182441,
-    "sha256": "9d6898938fc4e6a124b701cb91e5e8a706713f4180ec3436282c12cca44e8ac1"
   },
   {
     "path": "outputs/overleaf-metamaterial-selector/swarm-final-validation.json",
@@ -1855,24 +1710,19 @@
     "sha256": "6afb095965efd139f9a05592b6c69413ca6e8663c76d3e30972f066cc5684465"
   },
   {
-    "path": "outputs/paper-figures/figure1-coordinated-workflow.pdf",
-    "bytes": 48111,
-    "sha256": "44873f513d1420f4ad21e18d470725c8f90292c0bd184655b8bc778041b7d689"
-  },
-  {
-    "path": "outputs/paper-figures/figure1-coordinated-workflow.png",
-    "bytes": 309996,
-    "sha256": "67e540417ea95f12d349aefcf2f619177d9816a5e2131c6d04abe07babc0f74c"
-  },
-  {
-    "path": "outputs/paper-figures/figure1-coordinated-workflow.svg",
-    "bytes": 239014,
-    "sha256": "cbb80e144da283379d8770cf96910729fa64dfc4952a04b012c157b61ba10607"
-  },
-  {
     "path": "outputs/paper-figures/figure1-scene.json",
     "bytes": 85760,
     "sha256": "59baf5c6f17381a77485a64d5b5710b07d2f46d36d24cbe1cfc4ee6dee61d402"
+  },
+  {
+    "path": "outputs/paper-figures/stress-profiles.csv",
+    "bytes": 8961,
+    "sha256": "8baa6b6b927a98af690a9da38d2a8b6620252c33d917c1fd5eb4c38ca4ab9a2c"
+  },
+  {
+    "path": "outputs/paper-figures/stress-recovery-validation.json",
+    "bytes": 3159,
+    "sha256": "6efeed796d84419da4e24074d1d9c926acf3d9851cbc1ef736cc0f3f51772f8b"
   },
   {
     "path": "work/add_agent_figures.py",
@@ -1945,14 +1795,34 @@
     "sha256": "3c999e3b4735f622235421fd2aa3bfa32401083a9f93b7b7183f806b8e26f14d"
   },
   {
+    "path": "work/manuscript-revision/add_authors_and_fields.py",
+    "bytes": 10655,
+    "sha256": "2966035c73ff9ccc7baf0b9ca88d51295070d4e0d816af56f1b0a84d0aacf669"
+  },
+  {
     "path": "work/manuscript-revision/build_figure1.py",
     "bytes": 10729,
     "sha256": "e6c0be9d1826c0238c4f962cf00208316a19407abacd9b4db9e3807ad859d937"
   },
   {
+    "path": "work/manuscript-revision/embed_raster_figures.py",
+    "bytes": 2302,
+    "sha256": "bc1fd39345b4a3cea55f87086d24966ce73c3b0cecf53e23a7c305872a783179"
+  },
+  {
+    "path": "work/manuscript-revision/package_update.py",
+    "bytes": 6048,
+    "sha256": "89bbf7935a30da79415ba29be658a5637b117523d389f058103b514b6874c9c3"
+  },
+  {
     "path": "work/manuscript-revision/rewrite_paper.py",
-    "bytes": 50292,
-    "sha256": "17887510cffa2ac983b346814c93b81690a99c6ebaa4bf102e718884c9517bd6"
+    "bytes": 51312,
+    "sha256": "b0d8963dbbc9397a6110b2b2daf22d46b0ed829f33284fda5969fc1f1c36ce82"
+  },
+  {
+    "path": "work/manuscript-revision/stress-paper-section.tex",
+    "bytes": 13840,
+    "sha256": "2bd7150313340bd94d7c07bdc6bb01071260b4ac7ed77d1598540e29b3debad5"
   },
   {
     "path": "work/pictorial_figures.py",

@@ -7,6 +7,7 @@
 \usetikzlibrary{arrows.meta,positioning,fit,backgrounds}
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.18}
+\usepgfplotslibrary{groupplots}
 \usepackage{microtype}
 \usepackage[hidelinks]{hyperref}
 \usepackage{enumitem}
@@ -18,8 +19,16 @@
 \definecolor{warmamber}{HTML}{C68A29}
 \newcommand{\eps}{\varepsilon}
 \title{Coordinated Language Agents for Discrete Metamaterial Assembly:\\A Physics-Validated Mechanical Cloaking Study}
-\author{}
-\date{}
+\author{Liwei Wang\textsuperscript{1} \and Amir Farhadi Farimani\textsuperscript{1,2,3,4,*}}
+\date{\small
+\textsuperscript{1}Department of Mechanical Engineering\\
+\textsuperscript{2}Department of Chemical Engineering\\
+\textsuperscript{3}Department of Materials Science and Engineering\\
+\textsuperscript{4}Machine Learning Department\\
+Carnegie Mellon University, 5000 Forbes Avenue, Pittsburgh, PA 15213, USA\\[4pt]
+\textsuperscript{*}Corresponding author: \href{mailto:barati@cmu.edu}{barati@cmu.edu}}
+\newcommand{\structureevolution}{\includegraphics[width=.99\linewidth]{cloak-structure-evolution.png}}
+\newcommand{\stressfields}{\includegraphics[width=.99\linewidth]{cloak-stress-fields.png}}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -637,7 +646,7 @@ The retained trajectories in Fig.~\ref{fig:convergence} show different search be
 \end{figure}
 
 \subsection{Spatial changes and secondary metrics}
-The numerical and hybrid final assignments differ from the original at 18 and 27 independent cells, respectively. Both retain one four-neighbor connected solid component. Their volume fractions are 0.412736 and 0.412640, compared with 0.41096178 for the supplied assignment. Their mean geometric mismatch costs are 0.121292 and 0.118689. Figure~\ref{fig:locations} maps the changed macro cells; the companion figures provide the full pixel-resolved assemblies and exterior displacement-error maps on a common scale.
+The numerical and hybrid final assignments differ from the original at 18 and 27 independent cells, respectively. Both retain one four-neighbor connected solid component. Their volume fractions are 0.412736 and 0.412640, compared with 0.41096178 for the supplied assignment. Their mean geometric mismatch costs are 0.121292 and 0.118689. Figure~\ref{fig:locations} maps the changed macro cells. Figure~\ref{fig:evolution} shows actual retained pixel-resolved structures with a common magnified patch; Figs.~\ref{fig:stressfields} and~\ref{fig:stressprofiles} show stresses recovered from saved fine solutions.
 
 The larger accumulated number of hybrid changes is compatible with the four-swap limit: the cap applies to each proposal, while successive retained proposals can alter different cells. These results do not establish equal-material optimality, since volume was not fixed as an exact constraint. Connectedness and lower interface mismatch are useful secondary observations, not proofs of strength, buckling resistance, or printability.
 
@@ -3368,6 +3377,7 @@ Third, matched proposals turn later evaluations into interpretable contrasts. In
 These comparisons are more informative than three arbitrary independent guesses, but they consume the same expensive evaluation slots. The selected protocol favors a mixture of strong repairs and interpretable comparisons. No separate experiment tests whether that particular allocation is optimal.
 
 \subsection{Complete retained history}
+Table~\ref{tab:trajectory} lists the complete retained history and the source of each accepted hybrid proposal.
 \begin{table}[htbp]
 \centering\small
 \caption{Primary retained trajectories. Each round consumes three new candidates per method. R and I denote response and interface specialist winners in the hybrid arm.}
@@ -3389,6 +3399,77 @@ Round & Tests per arm & Numerical loss (\%) & Hybrid loss (\%) & Winner\\\midrul
 \bottomrule\end{tabular}
 \end{table}
 
+
+\subsection{Recovered stress fields and profiles}
+The optimized objective is exterior displacement error, not stress uniformity. To examine the mechanical fields without additional candidate solves, we recover plane-stress components from the saved fine displacement vectors using the same Q4 interpolation and element ordering. At each element center,
+\begin{equation}
+\widehat{\boldsymbol\sigma}_e=\left[\eta+(1-\eta)\rho_e\right]
+\mathbf D(\nu)\mathbf B_e(0,0)\mathbf u_e,
+\qquad
+\widetilde{\boldsymbol\sigma}_e=\widehat{\boldsymbol\sigma}_e/\widehat\sigma_{\rm nom},
+\quad \widehat\sigma_{\rm nom}=\frac{F_A}{1500E_0^2h}.
+\label{eq:stressrecovery}
+\end{equation}
+Here $\mathbf D$ has normalized solid Young's modulus one, $\eta=E_{\min}/E_0$, and $\mathbf B_e$ uses unit pixel length. This dimensionless normalization cancels the legacy stiffness scaling and is unchanged by a uniform spatial rescaling. Compression is negative $\sigma_{xx}$; physical $x$ points right and physical $y$ up. Stored image rows increase downward. The von Mises quantity is evaluated from the recovered center components,
+\begin{equation}
+\widetilde\sigma_{\rm vm}=
+\sqrt{\widetilde\sigma_{xx}^2-\widetilde\sigma_{xx}\widetilde\sigma_{yy}
++\widetilde\sigma_{yy}^2+3\widetilde\tau_{xy}^2}.
+\end{equation}
+For constant element material, center stress equals the average of the four Gauss-point stress vectors; its von Mises value is not the average of Gauss-point von Mises values. Quadrature of the recovery matrix reproduces the solver's normalized element stiffness to maximum difference $1.11\times10^{-16}$. An affine stress patch test has maximum discrepancy $1.46\times10^{-18}$, and center versus mean-Gauss stress agrees to $2.22\times10^{-16}$.
+
+Figure~\ref{fig:stressfields} plots local solid-element stresses on the actual geometries, with void elements masked and common color scales. The shared upper scale is the pooled 99.5th percentile of deterministic sampled solid-element values; higher values are saturated for visibility. Unclipped sampled-field maxima are retained in the recovery record. These are element-center fields, not mesh-converged peak-stress estimates, and sharp pixel corners and constrained nodes can dominate local extrema.
+
+For readable exterior profiles, each original $50\times50$-element macro cell is averaged over its full area, including the unchanged ersatz void phase. Figure~\ref{fig:stressprofiles} compares fixed exterior row 1 and column 1, which lie in the surrounding base-cell region. We additionally report a secondary stress mismatch over the 452 fixed exterior cells,
+\begin{equation}
+e_\sigma=\frac{\sqrt{\sum_{i\in\mathcal E_{\rm out}}
+[(\Delta\overline\sigma_{xx,i})^2+(\Delta\overline\sigma_{yy,i})^2
++2(\Delta\overline\tau_{xy,i})^2]}}
+{\sqrt{\sum_{i\in\mathcal E_{\rm out}}
+[\overline\sigma_{xx,i}^{*2}+\overline\sigma_{yy,i}^{*2}
++2\overline\tau_{xy,i}^{*2}]}}.
+\label{eq:stresserror}
+\end{equation}
+The reference is the uniformly tiled base-cell structure under the same load and supports. Values are 11.6298\% for the supplied assignment, 11.8811\% for the numerical final design, and 11.5985\% for the hybrid final design. Thus the substantial displacement-loss improvement does not translate into a similarly large stress-field improvement: the hybrid stress metric is nearly unchanged from the supplied design, and the numerical stress metric increases. This post hoc diagnostic was not used for proposal selection or retention. It neither establishes stress optimality nor changes the displacement-based ranking.
+
+\begin{figure}[p]
+\centering\structureevolution
+\caption{Actual pixel-resolved evolution of retained hybrid assignments: supplied design and rounds 2, 5, and 10. The upper row shows the entire original $1500\times1500$-element assembly; amber boxes identify the same $5\times5$-cell patch magnified below. Purple frames indicate cells changed relative to the supplied assignment. The sequence is reconstructed from saved retained labels, not generated illustrations. Reported losses are measured fine FEM objectives.}
+\label{fig:evolution}
+\end{figure}
+
+\begin{figure}[p]
+\centering\stressfields
+\caption{Recovered element-center von Mises stress (upper row) and horizontal normal stress (lower row), normalized by applied nominal compressive traction. Columns show the uniform base-cell reference, supplied cloak, numerical final cloak, and hybrid final cloak. Original pixel geometries and saved fine displacement fields are used; void pixels are masked. All columns use the same scales, clipped at the common pooled 99.5th-percentile limits for display. Compression is negative $\sigma_{xx}$. These fields are diagnostic: stresses were not optimized, and local maxima have no mesh-convergence claim.}
+\label{fig:stressfields}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering\begin{tikzpicture}
+\begin{groupplot}[group style={group size=3 by 1,horizontal sep=1.25cm},width=.28\linewidth,height=5cm,grid=major,grid style={black!10},xmin=.5,xmax=29.5,xtick={5,15,25},tick label style={font=\scriptsize},label style={font=\scriptsize},title style={font=\small},legend style={font=\tiny,at={(.02,.03)},anchor=south west}]
+\nextgroupplot[title={Top exterior row},xlabel={Cell coordinate $x/a$},ylabel={$-\langle\sigma_{xx}\rangle/\sigma_{\rm nom}$}]
+\addplot[black!65,dashed,thick] coordinates {(0.5,0.966844731) (1.5,0.9959925671) (2.5,1.052048634) (3.5,1.060460339) (4.5,1.058484591) (5.5,1.053909666) (6.5,1.049158468) (7.5,1.044902737) (8.5,1.041288218) (9.5,1.038305687) (10.5,1.035908059) (11.5,1.034047063) (12.5,1.032683575) (13.5,1.031789407) (14.5,1.031346646) (15.5,1.031346646) (16.5,1.031789407) (17.5,1.032683575) (18.5,1.034047063) (19.5,1.035908059) (20.5,1.038305687) (21.5,1.041288218) (22.5,1.044902737) (23.5,1.049158468) (24.5,1.053909666) (25.5,1.058484591) (26.5,1.060460339) (27.5,1.052048634) (28.5,0.9959925671) (29.5,0.966844731)};
+\addlegendentry{Reference}
+\addplot[black!35,thick] coordinates {(0.5,0.9668388107) (1.5,0.995682149) (2.5,1.051737662) (3.5,1.061527095) (4.5,1.063425723) (5.5,1.065379441) (6.5,1.066485381) (7.5,1.065373484) (8.5,1.048146336) (9.5,1.011595035) (10.5,1.004349522) (11.5,1.032475413) (12.5,0.9747636276) (13.5,1.015680943) (14.5,1.011591494) (15.5,1.011591494) (16.5,1.015680943) (17.5,0.9747636276) (18.5,1.032475413) (19.5,1.004349522) (20.5,1.011595035) (21.5,1.048146336) (22.5,1.065373484) (23.5,1.066485381) (24.5,1.065379441) (25.5,1.063425723) (26.5,1.061527095) (27.5,1.051737662) (28.5,0.995682149) (29.5,0.9668388107)};
+\addlegendentry{Supplied}
+\addplot[numblue,thick] coordinates {(0.5,0.9668416613) (1.5,0.9958436265) (2.5,1.052105864) (3.5,1.06187376) (4.5,1.063132274) (5.5,1.063185529) (6.5,1.060608458) (7.5,1.055978242) (8.5,1.040247932) (9.5,1.003810962) (10.5,0.9775594149) (11.5,0.9936999086) (12.5,0.9374943964) (13.5,0.9629592426) (14.5,0.9615175125) (15.5,0.9615175125) (16.5,0.9629592426) (17.5,0.9374943964) (18.5,0.9936999086) (19.5,0.9775594149) (20.5,1.003810962) (21.5,1.040247932) (22.5,1.055978242) (23.5,1.060608458) (24.5,1.063185529) (25.5,1.063132274) (26.5,1.06187376) (27.5,1.052105864) (28.5,0.9958436265) (29.5,0.9668416613)};
+\addlegendentry{Numerical}
+\addplot[agentpurple,thick] coordinates {(0.5,0.9668339475) (1.5,0.9954846486) (2.5,1.051167315) (3.5,1.060028099) (4.5,1.060007056) (5.5,1.058885216) (6.5,1.056467501) (7.5,1.053882432) (8.5,1.039902971) (9.5,1.001983146) (10.5,0.9732570157) (11.5,0.9892819966) (12.5,0.9369144178) (13.5,0.963964431) (14.5,0.9608388713) (15.5,0.9608388713) (16.5,0.963964431) (17.5,0.9369144178) (18.5,0.9892819966) (19.5,0.9732570157) (20.5,1.001983146) (21.5,1.039902971) (22.5,1.053882432) (23.5,1.056467501) (24.5,1.058885216) (25.5,1.060007056) (26.5,1.060028099) (27.5,1.051167315) (28.5,0.9954846486) (29.5,0.9668339475)};
+\addlegendentry{Hybrid}
+\nextgroupplot[title={Left exterior column},xlabel={Stored row coordinate},ylabel={$-\langle\sigma_{xx}\rangle/\sigma_{\rm nom}$}]
+\addplot[black!65,dashed,thick] coordinates {(0.5,1.057941005) (1.5,0.9959925671) (2.5,0.9760366349) (3.5,0.9891021265) (4.5,0.9938211194) (5.5,0.9963002713) (6.5,0.9976156793) (7.5,0.9983584587) (8.5,0.9987994395) (9.5,0.999071421) (10.5,0.9992433789) (11.5,0.9993530443) (12.5,0.9994218621) (13.5,0.9994621788) (14.5,0.9994808138) (15.5,0.9994808138) (16.5,0.9994621788) (17.5,0.9994218621) (18.5,0.9993530443) (19.5,0.9992433789) (20.5,0.999071421) (21.5,0.9987994395) (22.5,0.9983584587) (23.5,0.9976156793) (24.5,0.9963002713) (25.5,0.9938211194) (26.5,0.9891021265) (27.5,0.9760366349) (28.5,0.9959925671) (29.5,1.057941005)};
+\addplot[black!35,thick] coordinates {(0.5,1.058213961) (1.5,0.995682149) (2.5,0.9745817636) (3.5,0.9878584197) (4.5,0.9949026368) (5.5,1.000798052) (6.5,1.003668877) (7.5,1.003890417) (8.5,1.008158992) (9.5,1.021316021) (10.5,1.01327711) (11.5,0.970981486) (12.5,0.9435658756) (13.5,1.001538307) (14.5,1.020500046) (15.5,1.021063195) (16.5,1.003486157) (17.5,0.9458787361) (18.5,0.9736097572) (19.5,1.013773235) (20.5,1.017488894) (21.5,1.002797381) (22.5,1.00147315) (23.5,1.00491336) (24.5,1.003449572) (25.5,0.9968396902) (26.5,0.9885789451) (27.5,0.9745743087) (28.5,0.9953857112) (29.5,1.057753792)};
+\addplot[numblue,thick] coordinates {(0.5,1.058055539) (1.5,0.9958436265) (2.5,0.9752452047) (3.5,0.9888153336) (4.5,0.9956817922) (5.5,1.000790921) (6.5,1.002447477) (7.5,1.001611408) (8.5,1.006668697) (9.5,1.023467806) (10.5,1.019049568) (11.5,0.9721056954) (12.5,0.9409067977) (13.5,0.9967262581) (14.5,1.019910247) (15.5,1.021865401) (16.5,1.000917185) (17.5,0.9423599402) (18.5,0.9747101853) (19.5,1.020182258) (20.5,1.019790906) (21.5,1.001073458) (22.5,0.9989965073) (23.5,1.003772612) (24.5,1.003776799) (25.5,0.9980322633) (26.5,0.9898115605) (27.5,0.9751856028) (28.5,0.9951045537) (29.5,1.057094398)};
+\addplot[agentpurple,thick] coordinates {(0.5,1.057460334) (1.5,0.9954846486) (2.5,0.9754014504) (3.5,0.9894678096) (4.5,0.9967278762) (5.5,1.00203738) (6.5,1.003358784) (7.5,1.00094043) (8.5,1.002775726) (9.5,1.017129901) (10.5,1.016451283) (11.5,0.9795804141) (12.5,0.9533878648) (13.5,1.002669627) (14.5,1.006033265) (15.5,1.00621133) (16.5,1.003848308) (17.5,0.9554321991) (18.5,0.9829765705) (19.5,1.017783036) (20.5,1.013537257) (21.5,0.9972430313) (22.5,0.9983379955) (23.5,1.00463258) (24.5,1.004946199) (25.5,0.9990189609) (26.5,0.9904415109) (27.5,0.9753547182) (28.5,0.9947856002) (29.5,1.056543912)};
+\nextgroupplot[title={Top exterior row},xlabel={Cell coordinate $x/a$},ylabel={$\langle\sigma_{yy}\rangle/\sigma_{\rm nom}$}]
+\addplot[black!65,dashed,thick] coordinates {(0.5,0.05838616605) (1.5,-0.00418919935) (2.5,-0.02410947359) (3.5,-0.01095002453) (4.5,-0.006202842527) (5.5,-0.00371265542) (6.5,-0.002392146049) (7.5,-0.001646723225) (8.5,-0.001204251676) (9.5,-0.0009313760656) (10.5,-0.0007588590264) (11.5,-0.0006488363859) (12.5,-0.0005797923912) (13.5,-0.0005393416191) (14.5,-0.0005206440138) (15.5,-0.0005206440138) (16.5,-0.0005393416191) (17.5,-0.0005797923912) (18.5,-0.0006488363859) (19.5,-0.0007588590264) (20.5,-0.0009313760656) (21.5,-0.001204251676) (22.5,-0.001646723225) (23.5,-0.002392146049) (24.5,-0.00371265542) (25.5,-0.006202842527) (26.5,-0.01095002453) (27.5,-0.02410947359) (28.5,-0.00418919935) (29.5,0.05838616605)};
+\addplot[black!35,thick] coordinates {(0.5,0.05816013898) (1.5,-0.006154149088) (2.5,-0.02793483667) (3.5,-0.01554739283) (4.5,-0.008876885172) (5.5,-0.001050543983) (6.5,0.008901742468) (7.5,0.01491942382) (8.5,0.005840761289) (9.5,-0.01057697795) (10.5,0.02316002538) (11.5,0.03253047626) (12.5,-0.07713981124) (13.5,-0.02398837122) (14.5,0.02775640015) (15.5,0.02775640015) (16.5,-0.02398837122) (17.5,-0.07713981124) (18.5,0.03253047626) (19.5,0.02316002538) (20.5,-0.01057697795) (21.5,0.005840761289) (22.5,0.01491942382) (23.5,0.008901742468) (24.5,-0.001050543983) (25.5,-0.008876885172) (26.5,-0.01554739283) (27.5,-0.02793483667) (28.5,-0.006154149088) (29.5,0.05816013898)};
+\addplot[numblue,thick] coordinates {(0.5,0.05830714005) (1.5,-0.005768251964) (2.5,-0.02711910111) (3.5,-0.0143518942) (4.5,-0.007878046287) (5.5,-0.001447129664) (6.5,0.006541638146) (7.5,0.01355707634) (8.5,0.009941608189) (9.5,-0.005625162307) (10.5,0.01700038562) (11.5,0.02971580742) (12.5,-0.06584192125) (13.5,-0.02716813472) (14.5,0.02013598592) (15.5,0.02013598592) (16.5,-0.02716813472) (17.5,-0.06584192125) (18.5,0.02971580742) (19.5,0.01700038562) (20.5,-0.005625162307) (21.5,0.009941608189) (22.5,0.01355707634) (23.5,0.006541638146) (24.5,-0.001447129664) (25.5,-0.007878046287) (26.5,-0.0143518942) (27.5,-0.02711910111) (28.5,-0.005768251964) (29.5,0.05830714005)};
+\addplot[agentpurple,thick] coordinates {(0.5,0.05889896826) (1.5,-0.005244095352) (2.5,-0.02695631359) (3.5,-0.01484181376) (4.5,-0.009276814547) (5.5,-0.003328494425) (6.5,0.00565195106) (7.5,0.01506949314) (8.5,0.01307887104) (9.5,-0.00399969219) (10.5,0.01532216767) (11.5,0.02787652488) (12.5,-0.06332316981) (13.5,-0.02533852555) (14.5,0.01641094337) (15.5,0.01641094337) (16.5,-0.02533852555) (17.5,-0.06332316981) (18.5,0.02787652488) (19.5,0.01532216767) (20.5,-0.00399969219) (21.5,0.01307887104) (22.5,0.01506949314) (23.5,0.00565195106) (24.5,-0.003328494425) (25.5,-0.009276814547) (26.5,-0.01484181376) (27.5,-0.02695631359) (28.5,-0.005244095352) (29.5,0.05889896826)};
+\end{groupplot}\end{tikzpicture}
+\caption{Gross-area stress profiles averaged over original $50\times50$-element cells in the fixed exterior region. Top row index 1 and left column index 1 are used; displayed coordinates are cell centers and stored row increases downward. The profiles retain the original material/void interpolation and are not reoptimized curves. The numerical profile CSV and stress-recovery checks accompany the figures.}
+\label{fig:stressprofiles}
+\end{figure}
 \subsection{Numerical verification}
 The monitored reference displacement reconstructed from the supplied uniform base-cell structure agrees with the supplied target to relative difference $1.2912\times10^{-10}$. Small independently assembled models verify the full/half symmetry relation and stiffness assembly. The macro-adjoint derivative check validates the implemented infinitesimal macro derivative, not the accuracy of finite candidate scores. Table~\ref{tab:verification} collects checks at their actual scope.
 
@@ -3442,11 +3523,8 @@ Coordinated language agents can participate in discrete metamaterial assembly wh
 \section*{Data and code availability}
 The public unit-cell library is available under CC BY 4.0 at the Figshare DOI in Ref.~\cite{dataset}. The repository \href{https://github.com/BaratiLab/Metamaterial-Swarm}{BaratiLab/Metamaterial-Swarm} contains the project source, recorded actions, outcomes, validation, figure sources, and manuscript. It is private at preparation; this is an access-controlled working record rather than an independently archived public release. The author-supplied cloak input package is required separately and is not redistributed. Public release permissions and a permanent archived identifier remain to be resolved before journal submission.
 
-\section*{Acknowledgments}
-We thank Liwei Wang for providing the mechanical-cloaking assignment, evaluator, and task summary used to define this benchmark. Sharing these materials does not imply review or endorsement of the new experimental claims.
-
 \section*{AI assistance and author declarations}
-Language agents generated experimental proposals and assisted with code and manuscript preparation. Their nominations are evaluated research objects, not independent human reviews. The human authors must review the code, numerical interpretation, and final scientific claims. Author names, affiliations, contributions, funding, and competing-interest statements remain deferred in this working manuscript, as requested, and must be completed before submission.
+Language agents generated experimental proposals and assisted with code and manuscript preparation. Their nominations are evaluated research objects, not independent human reviews. The human authors must review the code, numerical interpretation, and final scientific claims. The author order and corresponding-author designation are specified above. Detailed contribution, funding, and competing-interest statements must be completed and approved by the listed authors before submission.
 
 \appendix
 \section{Supporting beam study}
@@ -3466,7 +3544,7 @@ Source data include both ordinary MAT and MATLAB v7.3/HDF5 files. The adapter re
 
 All three proposals in an arm-round are saved before any of its candidate outcomes. Commitment hashes and geometry hashes are retained. Round-one scratch launches initially share a namespace but independently execute their common singleton; later hybrid rounds use an arm-specific namespace. Every one of the 60 new trial records reports an uncached solve. This implementation detail does not change the optimization policy or reported evaluation count.
 
-The literal-action replay script recomputes the saved proposals in a new directory without requesting new language-agent decisions. A complete 60-assessment replay was not redundantly rerun after the completed study. The standalone \texttt{main.tex} embeds the vector overview and result plots directly; no external graphics or bibliography database is required to compile it with pdfLaTeX. Editable overview exports and full pixel-resolved raster figures are separate companion assets.
+The literal-action replay script recomputes the saved proposals in a new directory without requesting new language-agent decisions. A complete 60-assessment replay was not redundantly rerun after the completed study. The standalone \texttt{main.tex} embeds the vector overview, result plots, and losslessly compressed RGB structure/stress figures through the PGF PDF backend. No external graphics or bibliography database is required. The original PNG/PDF assets and numerical profile CSV are also supplied for reuse.
 
 \section{All primary candidate outcomes}
 Table~\ref{tab:alltrials} preserves all 60 measured candidate losses, including failures. N1, N2, and N3 are the numerical singleton, trust-combination, and diverse-beam policies. In the hybrid, T denotes its numerical-tool singleton, R the response agent, and I the interface agent. All candidates are numerically eligible; lower loss determines retention. Rows are correlated adaptive trials, not independent replicates. Literal actions, predicted scores, force residuals, connectivity, volume, and interface metrics are provided in the computational archive.

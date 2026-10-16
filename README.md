@@ -25,17 +25,27 @@ This is one exploratory case with historical knowledge, a fixed numerical policy
 ## Paper and figures
 
 - [Rewritten manuscript PDF](metamaterial-swarm-paper.pdf)
-- [Standalone LaTeX source](main.tex): embeds all manuscript diagrams and plots; compile with pdfLaTeX without external graphics or BibTeX.
+- [LaTeX source](main.tex): compile with pdfLaTeX and the two PNG files alongside it; no BibTeX database is required.
 - [Overleaf-ready package](overleaf-metamaterial-selector.zip)
 - Editable Figure 1: [SVG](figure1-coordinated-workflow.svg), [PDF](figure1-coordinated-workflow.pdf), [PNG](figure1-coordinated-workflow.png).
 - [Detailed coordination report](COORDINATION-RESULTS.md)
 - [Coordination code, actions, validation, and results](cloak-coordination-results.zip)
 
-The manuscript centers on cloaking, with the earlier beam study as supporting evidence. Author identities and journal declarations remain deferred and must be completed before submission. This private repository is a working research record, not a permanent public archive.
+The manuscript centers on cloaking, with the earlier beam study as supporting evidence. Liwei Wang is first author; Amir Farhadi Farimani is corresponding author, with CMU Mechanical Engineering, Chemical Engineering, Materials Science and Engineering, and Machine Learning affiliations. Final contributions, funding, and conflict declarations still require author review. This private repository is a working research record, not a permanent public archive.
+
+## Actual structures and recovered stresses
+
+![Actual retained structures](cloak-structure-evolution.png)
+
+![Stress fields on actual geometries](cloak-stress-fields.png)
+
+![Exterior stress profiles](cloak-stress-profiles.png)
+
+The new figures use original pixel geometries and saved fine displacement fields, with no new equilibrium solves. Q4 center-stress recovery passes stiffness quadrature and affine-patch checks. Local fields share color limits; clipped extrema are disclosed. Stress was not an optimization objective: fixed-exterior tensor mismatch is 11.6298% supplied, 11.8811% numerical, and 11.5985% hybrid. The displacement improvement does not imply a comparable stress improvement. Data and recovery checks are in the source archive; high-resolution publication exports are in [paper-figures.zip](paper-figures.zip).
 
 ## Complete source distribution
 
-Download [Metamaterial-Swarm-source-and-results.zip](Metamaterial-Swarm-source-and-results.zip) and extract it. The original structure is preserved, including all project-authored Python/MATLAB code, recorded proposals, outcomes, figure-generation source, and rewritten paper. [MANIFEST.json](MANIFEST.json) lists every archived file and SHA-256 checksum. Installed third-party runtimes and large displacement caches are excluded.
+Download [Metamaterial-Swarm-source-and-results.zip](Metamaterial-Swarm-source-and-results.zip) and extract it. The original structure is preserved, including all project-authored Python/MATLAB code, recorded proposals, outcomes, figure-generation source, and rewritten paper. Rendered PNG/PDF/SVG assets are distributed in the separate publication-figure and Overleaf archives to keep each upload below GitHub’s per-file limit; required paper PNGs are also at repository root. [MANIFEST.json](MANIFEST.json) lists every archived file and SHA-256 checksum. Installed third-party runtimes and large displacement caches are excluded.
 
 | Extracted directory | Contents |
 | --- | --- |
@@ -64,6 +74,6 @@ Exact model snapshot and decoding settings were not captured. Literal actions, r
 
 The preliminary cloak experiment favored numerical search: 12.3594% versus 12.5406% for the swarm at nine evaluations each. All 18 outcomes initialize both primary methods. The supporting beam study includes a failed initial language-guided repair and a later common-incumbent competition; its objective and protocol differ from the cloak comparison.
 
-The public library is by Liwei Wang, Jagannadh Boddapati, Ke Liu, Ping Zhu, Chiara Daraio, and Wei Chen, *2D orthotropic metamaterial micorstructrue dataset*, [Figshare version 1](https://doi.org/10.6084/m9.figshare.17141975.v1), CC BY 4.0. Metadata and checksums are retained. We thank Liwei Wang for the separate cloak assignment, evaluator, and summary; this does not imply endorsement of the new claims.
+The public library is by Liwei Wang, Jagannadh Boddapati, Ke Liu, Ping Zhu, Chiara Daraio, and Wei Chen, *2D orthotropic metamaterial micorstructrue dataset*, [Figshare version 1](https://doi.org/10.6084/m9.figshare.17141975.v1), CC BY 4.0. Metadata and checksums are retained. Liwei Wang supplied the separate cloak assignment, evaluator, and summary and is listed as first author of the working manuscript; all authors must review the final claims.
 
 Related papers: [Wang et al., CMAME 372 (2020), 113377](https://doi.org/10.1016/j.cma.2020.113377); [Wang et al., PNAS 119 (2022), e2122185119](https://doi.org/10.1073/pnas.2122185119). We do not claim to beat their published designs. Private correspondence and author-supplied inputs are excluded. No new blanket software license is assigned by this snapshot.
