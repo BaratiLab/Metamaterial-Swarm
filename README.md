@@ -1,12 +1,14 @@
 # Metamaterial Swarm
 
-## Current Clockwork manuscript: exact 961-query numerical swarm
+## Current manuscript: exact 961-query metamaterial swarm
 
-**Clockwork: A Coordinated Swarm of Specialized Agents for Elastic Cloaking**
+**A Metamaterial Agentic Swarm: Coordinated Search for Discrete Mechanical Design**
 
 [Paper PDF](clockwork-961-paper.pdf) · [Editable Overleaf source and all figures](clockwork-961-overleaf.zip) · [Code and recorded validation](clockwork-961-code-and-validation.zip) · [Study guide](CLOCKWORK-961.md) · [SHA-256 checksums](CLOCKWORK-961-MANIFEST.json)
 
-![Clockwork conceptual workflow](clockwork-961-concept.png)
+![Figure 1: conceptual cooperation](clockwork-961-concept.png)
+
+![Figure 2: agent roles, shared state, and serial query cycle](clockwork-961-architecture.png)
 
 Five cooperating islands contain forty numerical search agents: each island repeats the eight roles of scout, spatial organizer, mutator, archive learner, recombiner, diversity restarter, neighborhood explorer, and incumbent polisher. Islands retain separate parents and random streams, and share designs through the elite archive and recombination. These agents are numerical search policies, not language models; physical solves are serial.
 
@@ -18,6 +20,14 @@ Five cooperating islands contain forty numerical search agents: each island repe
 | Mean | 0.125240553893473 |
 
 The best loss is **8.72% below 0.1102**. Each run has exactly 961 charged queries, including its random start; the swarm total is 2,883. The endpoint was selected retrospectively from a continuation toward 1201. Three seeds are descriptive, and these results do not establish causal benefits from communication. The manuscript includes independent strict endpoint verification, recovered designs, displacements and stresses, and explanations of all agent responsibilities. See the [study guide](CLOCKWORK-961.md) for accounting, validation scope, reproduction requirements and submission limitations. Original input data and full raw nodal-field caches are not redistributed in this update.
+
+## Swarm in motion
+
+[![Watch the metamaterial swarm movie](metamaterial_swarm_preview.gif)](metamaterial_swarm.mp4)
+
+[Watch / download the full film (59.5 s)](metamaterial_swarm.mp4) · [WebM preview](metamaterial_swarm_preview.webm) · [Editable interactive project](metamaterial_swarm_project.zip) · [Video documentation](SWARM-VIDEO.md)
+
+Created with Claude. The replay uses recorded seed-0 agent IDs, losses and evaluation counts; parent tiles, donor choices and communication choreography are explicitly illustrative. Forty numerical agents share evidence while physical solves remain serial. Only one of three seeds reaches 0.1102; the animation makes no comparative or causal claim.
 
 ## Earlier coordinated language-agent study and supporting benchmarks
 
