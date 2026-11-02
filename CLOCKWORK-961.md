@@ -14,9 +14,9 @@ Authors: Liwei Wang and Amir Barati Farimani (corresponding author).
 
 ## Animated explanation
 
-[![Watch the metamaterial swarm movie](metamaterial_swarm_preview.gif)](metamaterial_swarm.mp4)
+[![Watch the metamaterial swarm movie](metamaterial_swarm_preview.gif)](https://github.com/BaratiLab/Metamaterial-Swarm/raw/refs/heads/main/metamaterial_swarm.mp4)
 
-[Full film (MP4, 59.5 s)](metamaterial_swarm.mp4) · [Compact WebM preview](metamaterial_swarm_preview.webm) · [Editable interactive project](metamaterial_swarm_project.zip) · [Video documentation](SWARM-VIDEO.md)
+[Full film (MP4, 59.5 s)](https://github.com/BaratiLab/Metamaterial-Swarm/raw/refs/heads/main/metamaterial_swarm.mp4) · [Compact WebM preview](metamaterial_swarm_preview.webm) · [Editable interactive project](metamaterial_swarm_project.zip) · [Video documentation](SWARM-VIDEO.md)
 
 The movie, created with Claude, shows forty numerical agents, island parents,
 shared elite memory, and serial evaluation. Recorded seed-0 counters, proposing
@@ -61,9 +61,8 @@ Local stress maxima are not mesh-converged peak estimates.
 
 ## Scope and accounting
 
-This manuscript is swarm-only and distinct from the earlier language-agent study
-preserved in this repository. It does not report comparator performance or claim
-a causal benefit from communication. There are 2,883 cumulative swarm queries
+This manuscript reports the numerical swarm study. It does not report comparator
+performance or claim a causal benefit from communication. There are 2,883 cumulative swarm queries
 (three times 961), including 1,080 after the 601-query checkpoints. The records
 include 205 unresolved queries and 32 charged cache hits; these categories can
 overlap. Exact skipped-duplicate counts and wall time at 961 are not recoverable;
