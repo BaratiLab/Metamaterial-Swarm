@@ -1,5 +1,29 @@
 # Metamaterial Swarm
 
+## Current Clockwork manuscript: exact 961-query numerical swarm
+
+**Clockwork: A Coordinated Swarm of Specialized Agents for Elastic Cloaking**
+
+[Paper PDF](clockwork-961-paper.pdf) · [Editable Overleaf source and all figures](clockwork-961-overleaf.zip) · [Code and recorded validation](clockwork-961-code-and-validation.zip) · [Study guide](CLOCKWORK-961.md) · [SHA-256 checksums](CLOCKWORK-961-MANIFEST.json)
+
+![Clockwork conceptual workflow](clockwork-961-concept.png)
+
+Five cooperating islands contain forty numerical search agents: each island repeats the eight roles of scout, spatial organizer, mutator, archive learner, recombiner, diversity restarter, neighborhood explorer, and incumbent polisher. Islands retain separate parents and random streams, and share designs through the elite archive and recombination. These agents are numerical search policies, not language models; physical solves are serial.
+
+| Seed | Strictly validated displacement loss at 961 queries |
+| --- | ---: |
+| 0 | 0.10058956169534036 |
+| 1 | 0.13927377000061084 |
+| 2 | 0.13585832998446776 |
+| Mean | 0.125240553893473 |
+
+The best loss is **8.72% below 0.1102**. Each run has exactly 961 charged queries, including its random start; the swarm total is 2,883. The endpoint was selected retrospectively from a continuation toward 1201. Three seeds are descriptive, and these results do not establish causal benefits from communication. The manuscript includes independent strict endpoint verification, recovered designs, displacements and stresses, and explanations of all agent responsibilities. See the [study guide](CLOCKWORK-961.md) for accounting, validation scope, reproduction requirements and submission limitations. Original input data and full raw nodal-field caches are not redistributed in this update.
+
+## Earlier coordinated language-agent study and supporting benchmarks
+
+The material below preserves the earlier experiment. Its protocol, supplied starting assignment, language-agent roles, and results are distinct from the numerical Clockwork study linked above; the figures and methods should not be conflated.
+
+
 Physics-guided multi-agent selection of heterogeneous mechanical metamaterials, evaluated with full-resolution finite elements.
 
 ![Coordinated selection workflow](figure1-coordinated-workflow.png)
