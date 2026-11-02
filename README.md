@@ -23,9 +23,9 @@ The best loss is **8.72% below 0.1102**. Each run has exactly 961 charged querie
 
 ## Swarm in motion
 
-[![Watch the metamaterial swarm movie](metamaterial_swarm_preview.gif)](metamaterial_swarm.mp4)
+[![Watch the metamaterial swarm movie](metamaterial_swarm_preview.gif)](https://github.com/BaratiLab/Metamaterial-Swarm/raw/refs/heads/main/metamaterial_swarm.mp4)
 
-[Watch / download the full film (59.5 s)](metamaterial_swarm.mp4) · [WebM preview](metamaterial_swarm_preview.webm) · [Editable interactive project](metamaterial_swarm_project.zip) · [Video documentation](SWARM-VIDEO.md)
+[Watch / download the full film (59.5 s)](https://github.com/BaratiLab/Metamaterial-Swarm/raw/refs/heads/main/metamaterial_swarm.mp4) · [WebM preview](metamaterial_swarm_preview.webm) · [Editable interactive project](metamaterial_swarm_project.zip) · [Video documentation](SWARM-VIDEO.md)
 
 Created with Claude. The replay uses recorded seed-0 agent IDs, losses and evaluation counts; parent tiles, donor choices and communication choreography are explicitly illustrative. Forty numerical agents share evidence while physical solves remain serial. Only one of three seeds reaches 0.1102; the animation makes no comparative or causal claim.
 
