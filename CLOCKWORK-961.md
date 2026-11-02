@@ -84,8 +84,10 @@ in the Overleaf package requires those external saved fields to regenerate maps.
 No clean-environment scientific replay is claimed.
 
 Compile `main.tex` inside the extracted Overleaf ZIP with pdfLaTeX, preserving its
-`figures/` directory. Figure 1 is in the introduction (page 2) and Figure 2 opens
-the swarm-methods section (page 5). The current draft has 20 pages and resolved
+`figures/` directory. Figure 1 is in the introduction (page 2) and Figure 2 details
+the swarm implementation (page 6). The current draft has 22 pages and resolved
 cross-references. Author declarations remain pending; mesh/void-contrast
 sensitivity, broader test cases, and controlled agent/communication ablations are
 research gaps before stronger general claims or submission readiness.
+
+The latest editorial review adds a 25-reference literature framework for role-based agent design, blackboard coordination, island search, memetic optimization, elite-distribution learning and mechanical metamaterials. The agents are explicitly described as knowledge-informed numerical policies. REFERENCE_NOTES.txt in the manuscript ZIP records the source checks and method-to-reference mapping.
