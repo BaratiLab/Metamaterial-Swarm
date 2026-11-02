@@ -1,6 +1,6 @@
 # Clockwork: exact 961-query swarm study
 
-**Clockwork: A Coordinated Swarm of Specialized Agents for Elastic Cloaking**
+**A Metamaterial Agentic Swarm: Coordinated Search for Discrete Mechanical Design**
 
 Authors: Liwei Wang and Amir Barati Farimani (corresponding author).
 
@@ -11,6 +11,21 @@ Authors: Liwei Wang and Amir Barati Farimani (corresponding author).
 - [Working Overleaf project](https://www.overleaf.com/project/6add38d3993ecc93348e8b2e)
 
 ![Conceptual workflow](clockwork-961-concept.png)
+
+## Animated explanation
+
+[![Watch the metamaterial swarm movie](metamaterial_swarm_preview.gif)](metamaterial_swarm.mp4)
+
+[Full film (MP4, 59.5 s)](metamaterial_swarm.mp4) · [Compact WebM preview](metamaterial_swarm_preview.webm) · [Editable interactive project](metamaterial_swarm_project.zip) · [Video documentation](SWARM-VIDEO.md)
+
+The movie, created with Claude, shows forty numerical agents, island parents,
+shared elite memory, and serial evaluation. Recorded seed-0 counters, proposing
+agents, losses, unresolved outcomes, cache flags, and best-so-far history use the
+961-event record. Parent tiles, donor choices, and communication choreography
+are explicitly illustrative because complete parent/donor lineage was not logged.
+Only seed 0 reaches 0.1102; no comparative or causal coordination benefit is claimed.
+The film uses a seekable HTML composition rendered with Chromium and ffmpeg;
+HyperFrames itself was not installed in its build environment.
 
 ## Agent responsibilities and cooperation
 
@@ -71,7 +86,7 @@ No clean-environment scientific replay is claimed.
 
 Compile `main.tex` inside the extracted Overleaf ZIP with pdfLaTeX, preserving its
 `figures/` directory. Figure 1 is in the introduction (page 2) and Figure 2 opens
-the swarm-methods section (page 5). The current draft has 21 pages and resolved
+the swarm-methods section (page 5). The current draft has 20 pages and resolved
 cross-references. Author declarations remain pending; mesh/void-contrast
 sensitivity, broader test cases, and controlled agent/communication ablations are
 research gaps before stronger general claims or submission readiness.

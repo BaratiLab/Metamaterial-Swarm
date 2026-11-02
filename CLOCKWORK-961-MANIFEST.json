@@ -1,8 +1,15 @@
 {
-  "clockwork-961-paper.pdf": "73f80d1fd8f79209daf79aeed2a2c2cbce66873537cfeb1d36b7b6a9e3f02f98",
-  "clockwork-961-overleaf.zip": "b438633bb000399ba3971f703002ba2709957e80fe19816a08dfb13a5e1890fd",
+  "clockwork-961-paper.pdf": "8dfd1f7edbb4e7f27227d6ec80c38026d28360ce79b14862a9facf8608983651",
+  "clockwork-961-overleaf.zip": "c78d52ed1e091627f0ecfd2c57ce27e0a2b14803609a3a6410538d8e09ba1ab8",
   "clockwork-961-code-and-validation.zip": "5de5357c176ca2033e15a46bbdd9d49ff8855a5da45851347f45794bf586efbf",
-  "clockwork-961-concept.png": "801d6ffca592b5188c2aa0ba1485186032c6a79385aa812ca78342518400ffe8",
-  "clockwork-961-architecture.png": "b0d49b631749705a90a22cb37a6bbd091721c0cbe34b588b3399a83f3cb9be78",
-  "CLOCKWORK-961.md": "ec74b6bffb5a71b21cebf3c071a5f686f72a5f0137781b6645d7552823e92f95"
+  "clockwork-961-concept.png": "fdaba11e0eea585d96fee0e1ce0b1de9ec069cb602c47337b097fc8fc99bb4f2",
+  "clockwork-961-architecture.png": "d158c0c0b9790fb3849ab61d49bc1ce08efeca5cbcc79a4281003363147d34f8",
+  "CLOCKWORK-961.md": "2f522df4ead4d55f4301988a94ed9c9f44ddb6950a4f0293a5bdd6ab7ecb413b",
+  "metamaterial_swarm.mp4": "638557fa8f3989e000207cb28bb019d2f5ae0ba6fe9d803c27b6dfa2c12a4bb7",
+  "metamaterial_swarm_preview.gif": "5b76945f2682ff347a18e1b96268a0b445b99b5c803dab17b6a753348158d0b4",
+  "metamaterial_swarm_preview.webm": "5d1f3fa3630cceec4c3c802673a7f1ca25ad93dfd86c35663a0f52db05286c02",
+  "metamaterial_swarm_thumbnail.png": "ef94e24be3652bdfd78edba483b923bd5a6aef1bdc693ddc312f76549ac037a7",
+  "metamaterial_swarm_poster.png": "fe3e3c366a3a4a28c68523e6a1014bf1601472875681d21f330036b86d307c82",
+  "metamaterial_swarm_project.zip": "f9a336a41bbd5222c9da3fc8de478a19b0f96b520394783562452b753520693d",
+  "SWARM-VIDEO.md": "4e563774a3e1810ac22321cff58d127c2f0610ee9d7deeb0e3b2d00b6cc2bc79"
 }
